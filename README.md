@@ -17,19 +17,8 @@ reconstruido a partir del PDF original para poder aplicar las correcciones pedid
 
 **Segunda ronda**
 
-1. **Portada rediseñada**: la foto de la candidata ahora ocupa una columna
-   grande y nítida; al lado, la otra mitad de la portada se llenó con un
-   colage de piezas sobre atractivos turísticos y costumbres del distrito —
-   la campiña y la Cordillera Huayhuash (foto real, ya usada en la página 3),
-   una ilustración de las pozas termales de El Batán, una franja con un
-   patrón textil andino, y una ilustración de ganadería/quesería.
-   ⚠️ Nota: este entorno de trabajo no tiene salida a internet para descargar
-   fotos (Wikimedia, bancos de imágenes, etc. están bloqueados por política de
-   red), así que solo pudo reutilizarse la foto real que ya traía el PDF
-   original (con su crédito). El resto del collage son ilustraciones propias
-   con la temática pedida. Si envías fotos propias de los baños termales,
-   paisajes o costumbres del distrito (como hiciste con el PDF original), se
-   pueden reemplazar directamente por fotos reales.
+1. Portada rediseñada con foto grande + collage de ilustraciones (paisaje,
+   termas, textil, ganadería). Se revirtió en la tercera ronda — ver abajo.
 2. Se reescribió la descripción de la candidata para poner en primer plano
    que trabaja desde siempre —y hasta hoy— de la mano con los ganaderos:
    compra y venta de lácteos, llevándolos a mercados de Huánuco y otros
@@ -38,6 +27,28 @@ reconstruido a partir del PDF original para poder aplicar las correcciones pedid
    pueblo por su nombre.
 3. Letras un poco más grandes otra vez, y el logo del partido (portada y
    "Marca la R" del cierre) agrandado aún más.
+
+**Tercera ronda**
+
+1. **Portada**: se volvió a la versión original (foto de la candidata + franja
+   lateral con motivo de aguas termales), a pedido explícito — sin usar
+   ilustraciones "de relleno" a falta de fotos reales de Baños, ya que este
+   entorno de trabajo no tiene salida a internet para descargarlas (Wikimedia,
+   bancos de imágenes, etc. están bloqueados por política de red de la
+   sesión). Si se envían fotos propias del distrito, se pueden incorporar
+   directamente.
+2. **Verificación del dato de centros poblados**: se confirmó por varias
+   fuentes independientes (deperu.com / directorio de centros poblados) que
+   el distrito de Baños tiene **159 centros poblados** (no una cifra vaga de
+   "más de 150") — el dato de la versión anterior era correcto pero
+   impreciso, así que se ajustó a la cifra exacta. De paso, se intentó
+   verificar la superficie del distrito en km²: las búsquedas devolvieron
+   cifras contradictorias (183, 449.9 y 82.66 km², estas últimas dos
+   pertenecientes a otros distritos vecinos según fuentes cruzadas) sin
+   poder confirmar cuál es la correcta, así que **se retiró esa cifra** del
+   documento en lugar de arriesgar un dato incorrecto en material de
+   campaña. Se confirmaron sí como correctos: la altitud (3 409 m s.n.m.),
+   el río Nupe y la distancia a Huánuco (112 km).
 
 ## Regenerar el PDF
 
