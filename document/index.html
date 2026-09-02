@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Nena Mejía · Alcaldesa por Baños 2027–2030</title>
+<style>
+  @font-face{font-family:'Anton';src:url('assets/fonts/Anton.woff2') format('woff2');font-weight:400;font-style:normal;}
+  @font-face{font-family:'Barlow Condensed';src:url('assets/fonts/BarlowCondensed-SemiBold.woff2') format('woff2');font-weight:600;font-style:normal;}
+  @font-face{font-family:'Barlow Condensed';src:url('assets/fonts/BarlowCondensed-Bold.woff2') format('woff2');font-weight:700;font-style:normal;}
+  @font-face{font-family:'Barlow Condensed';src:url('assets/fonts/BarlowCondensed-ExtraBold.woff2') format('woff2');font-weight:800;font-style:normal;}
+  @font-face{font-family:'Roboto';src:url('assets/fonts/Roboto-Variable.woff2') format('woff2');font-weight:400 700;font-style:normal;}
+  @font-face{font-family:'Roboto';src:url('assets/fonts/Roboto-Italic.woff2') format('woff2');font-weight:400;font-style:italic;}
+
+  :root{
+    --navy:#0d2b4a;
+    --navy-2:#123a63;
+    --blue:#1d7ec2;
+    --blue-bright:#28abe3;
+    --blue-pale:#eaf5fc;
+    --ink:#1b1b1b;
+    --grey:#5b6b7a;
+    --line:#d7e2ea;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{background:#e9edf0;}
+  body{font-family:'Roboto',Arial,sans-serif;color:var(--ink);}
+  .page{
+    width:210mm;height:297mm;position:relative;overflow:hidden;
+    background:#fff;page-break-after:always;
+  }
+  .page:last-of-type{page-break-after:auto;}
+  .display{font-family:'Anton',sans-serif;font-weight:400;letter-spacing:.5px;}
+  .heading{font-family:'Barlow Condensed',sans-serif;font-weight:800;letter-spacing:.3px;}
+  .eyebrow{font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:2.6px;text-transform:uppercase;}
+  .footerbar{
+    position:absolute;left:0;right:0;bottom:0;height:11mm;background:var(--blue-bright);
+    display:flex;align-items:center;justify-content:center;
+    color:#fff;font-size:10.5px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;
+    font-family:'Barlow Condensed',sans-serif;
+  }
+  .rmark{
+    display:inline-flex;align-items:center;justify-content:center;
+    background:var(--blue-bright);color:#fff;font-family:'Anton',sans-serif;
+    border-radius:4px;flex:none;
+  }
+
+  /* ============ PAGE 1 — PORTADA ============ */
+  #p1{display:flex;}
+  .cover-left{
+    width:74mm;flex:none;background:var(--navy);color:#fff;
+    padding:11mm 8mm 15mm 11mm;display:flex;flex-direction:column;height:100%;position:relative;z-index:2;
+  }
+  .cover-logo{display:flex;align-items:center;gap:9px;margin-bottom:16mm;}
+  .cover-logo .rmark{width:34px;height:34px;font-size:23px;}
+  .cover-logo .logo-text .name{font-size:14.5px;font-weight:700;line-height:1.15;font-family:'Barlow Condensed',sans-serif;letter-spacing:.5px;}
+  .cover-logo .logo-text .sub{font-size:7.6px;letter-spacing:2px;color:#b9c8d6;font-family:'Barlow Condensed',sans-serif;font-weight:600;}
+  .cover-eyebrow{color:var(--blue-bright);font-size:11px;margin-bottom:3mm;}
+  .cover-name{font-size:52px;line-height:.92;margin-bottom:6mm;}
+  .cover-legalname{font-size:13.5px;font-weight:500;margin-bottom:6mm;}
+  .cover-rule{width:100%;height:1px;background:#3a5674;margin-bottom:6mm;}
+  .cover-role{font-size:13px;font-weight:700;margin-bottom:auto;}
+  .cover-quote{font-style:italic;font-size:18px;line-height:1.28;font-weight:500;margin-bottom:3mm;}
+  .cover-quote-tag{color:var(--blue-bright);font-size:10px;letter-spacing:1.8px;margin-bottom:9mm;}
+  .cover-mark{display:flex;align-items:center;gap:8px;}
+  .cover-mark .rmark{width:30px;height:30px;font-size:19px;}
+  .cover-mark .txt .m1{font-size:13px;font-weight:700;}
+  .cover-mark .txt .m2{font-size:9.5px;color:#c7d5e2;}
+
+  .cover-strip{width:20mm;flex:none;position:relative;overflow:hidden;height:100%;}
+  .cover-photo{flex:1;position:relative;overflow:hidden;height:100%;}
+  .cover-photo img{position:absolute;width:190%;max-width:none;top:0;left:-52%;height:100%;object-fit:cover;}
+
+  .cover-topright{
+    position:absolute;top:9mm;right:11mm;z-index:5;
+    color:var(--navy);font-family:'Barlow Condensed',sans-serif;font-weight:700;
+    font-size:9.5px;letter-spacing:1.6px;text-transform:uppercase;
+  }
+  .cover-topright.on-photo{color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.35);}
+
+  /* ============ SHARED CONTENT PAGE HEADER ============ */
+  .content-pad{padding:11mm 13mm 0 13mm;}
+  .doc-header{
+    display:flex;align-items:center;justify-content:space-between;
+    padding-bottom:4mm;border-bottom:1px solid var(--line);margin-bottom:7mm;
+  }
+  .doc-header .h-left{display:flex;align-items:center;gap:7px;}
+  .doc-header .rmark{width:19px;height:19px;font-size:13px;}
+  .doc-header .h-title{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:10.5px;letter-spacing:1.4px;color:var(--navy);text-transform:uppercase;}
+
+  .sec-eyebrow{color:var(--blue);font-size:10.5px;margin-bottom:2mm;}
+  .sec-title{font-size:34px;color:var(--navy);line-height:1;margin-bottom:3mm;}
+  .sec-underline{width:34mm;height:3px;background:var(--blue-bright);margin-bottom:8mm;}
+
+  /* ============ PAGE 2 — QUIÉN ES ============ */
+  #p2 .body-grid{display:flex;gap:9mm;padding:0 13mm;}
+  #p2 .col-main{width:114mm;flex:none;}
+  #p2 .col-side{flex:1;}
+  .bio-block{margin-bottom:5.2mm;}
+  .bio-h{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:13.5px;color:var(--navy);letter-spacing:.3px;margin-bottom:1.6mm;}
+  .bio-p{font-size:11px;line-height:1.5;color:#2b3a48;}
+  .bio-quote{
+    border-left:3px solid var(--blue-bright);background:var(--blue-pale);
+    padding:4mm 5mm;font-style:italic;font-size:11.5px;line-height:1.45;color:var(--navy-2);margin-top:5mm;
+  }
+  .data-box{border:1px solid var(--line);border-radius:3mm;padding:5mm;background:#fff;}
+  .data-box .db-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:10.5px;letter-spacing:1.4px;color:var(--blue);text-transform:uppercase;margin-bottom:4mm;}
+  .data-item{margin-bottom:4mm;}
+  .data-item .di-k{font-size:10px;font-weight:700;color:var(--navy);}
+  .data-item .di-v{font-size:9.6px;line-height:1.4;color:#3d4c5a;}
+  .data-src{font-size:7.6px;color:#8a97a3;line-height:1.35;margin-top:2mm;}
+
+  .htd-row{display:flex;gap:6mm;padding:6mm 13mm 0 13mm;margin-top:2mm;}
+  .htd-card{flex:1;text-align:center;}
+  .htd-badge{
+    width:11mm;height:11mm;border-radius:50%;background:var(--blue);color:#fff;
+    display:flex;align-items:center;justify-content:center;font-family:'Anton',sans-serif;font-size:16px;
+    margin:0 auto 2.4mm auto;
+  }
+  .htd-card .ht{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:11px;color:var(--navy);letter-spacing:.8px;margin-bottom:1mm;}
+  .htd-card .hd{font-size:9.3px;color:#4c5a68;line-height:1.35;}
+
+  /* ============ PAGES 3 & 4 — PLAN DE GOBIERNO ============ */
+  .plan-card{border:1px solid var(--line);border-radius:3mm;padding:5.5mm 6mm;margin:0 13mm 5.5mm 13mm;position:relative;}
+  .plan-num{font-family:'Anton',sans-serif;color:var(--blue);font-size:23px;display:inline-block;vertical-align:middle;margin-right:2.5mm;}
+  .plan-h{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:15px;color:var(--navy);display:inline-block;vertical-align:middle;letter-spacing:.3px;}
+  .plan-list{list-style:none;margin-top:3.4mm;}
+  .plan-list li{position:relative;padding-left:4.6mm;font-size:10.6px;line-height:1.5;color:#2b3a48;margin-bottom:2mm;}
+  .plan-list li:last-child{margin-bottom:0;}
+  .plan-list li::before{content:"";position:absolute;left:0;top:5.5px;width:5px;height:5px;border-radius:50%;background:var(--blue-bright);}
+  .plan-list b{color:var(--navy);}
+
+  .intro-box{
+    background:var(--blue-pale);border-radius:3mm;padding:5mm 6mm;margin:0 13mm 7mm 13mm;
+    font-size:11.5px;line-height:1.5;color:var(--navy-2);
+  }
+
+  #p3 .photo-band{position:absolute;left:0;right:0;bottom:11mm;height:44mm;overflow:hidden;}
+  #p3 .photo-band img{width:100%;height:100%;object-fit:cover;}
+  #p3 .photo-band .cap{
+    position:absolute;left:0;right:0;bottom:0;padding:3mm 13mm;font-size:8.6px;line-height:1.35;
+    color:#fff;background:linear-gradient(transparent,rgba(4,20,36,.72));
+  }
+
+  .r-watermark{position:absolute;font-family:'Anton',sans-serif;color:var(--navy);opacity:.05;line-height:1;pointer-events:none;}
+
+  .value-row{display:flex;gap:4mm;padding:0 13mm;margin-bottom:7mm;}
+  .value-card{flex:1;background:var(--navy);color:#fff;border-radius:3mm;padding:5mm;}
+  .value-card .vt{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:11.5px;letter-spacing:.6px;margin-bottom:2mm;}
+  .value-card .vd{font-size:9.3px;line-height:1.4;color:#cfdae4;}
+
+  .cta-box{
+    margin:0 13mm 8mm 13mm;background:var(--blue-bright);border-radius:3mm;
+    padding:7mm 8mm;color:#fff;text-align:center;
+  }
+  .cta-box .ct1{font-size:26px;line-height:1.05;margin-bottom:2mm;}
+  .cta-box .ct2{font-size:11.5px;font-weight:700;margin-bottom:4mm;}
+  .cta-box .ct3{display:flex;align-items:center;justify-content:center;gap:8px;}
+  .cta-box .ct3 .rmark{width:26px;height:26px;font-size:17px;background:#fff;color:var(--blue-bright);}
+  .cta-box .ct3 span{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12.5px;letter-spacing:.5px;}
+
+  .credits{margin:0 13mm 4mm 13mm;font-size:7.6px;line-height:1.45;color:#8a97a3;}
+</style>
+</head>
+<body>
+
+<!-- ======================================================= PAGE 1 : PORTADA ======================================================= -->
+<div class="page" id="p1">
+  <div class="cover-left">
+    <div class="cover-logo">
+      <div class="rmark">R</div>
+      <div class="logo-text">
+        <div class="name">RENOVACIÓN&nbsp;POPULAR</div>
+        <div class="sub">PARTIDO POLÍTICO</div>
+      </div>
+    </div>
+
+    <div class="cover-eyebrow eyebrow">Candidata a la alcaldía</div>
+    <div class="cover-name display">NENA<br>MEJÍA</div>
+    <div class="cover-legalname">Yaqueline Mejía Soler</div>
+    <div class="cover-rule"></div>
+    <div class="cover-role">Alcaldesa por Baños · 2027 – 2030</div>
+
+    <div>
+      <div class="cover-quote">&ldquo;Vengo a trabajar,<br>no a prometer.&rdquo;</div>
+      <div class="cover-quote-tag eyebrow">Hija de Baños · Mujer de trabajo</div>
+      <div class="cover-mark">
+        <div class="rmark">R</div>
+        <div class="txt"><div class="m1">Marca la R</div><div class="m2">este 4 de octubre</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-strip">
+    <svg viewBox="0 0 60 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#123a63"/>
+          <stop offset="1" stop-color="#1f7fb8"/>
+        </linearGradient>
+        <linearGradient id="pool" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#9fe8ec"/>
+          <stop offset="1" stop-color="#1fa5c2"/>
+        </linearGradient>
+      </defs>
+      <rect width="60" height="900" fill="url(#sky)"/>
+      <path d="M0,230 L14,190 L24,215 L34,172 L46,208 L60,182 L60,900 L0,900 Z" fill="#0a2440" opacity="0.55"/>
+      <path d="M0,290 L16,250 L30,278 L42,244 L60,272 L60,900 L0,900 Z" fill="#0a2440" opacity="0.85"/>
+      <g opacity="0.92">
+        <ellipse cx="30" cy="415" rx="26" ry="20" fill="url(#pool)"/>
+        <ellipse cx="30" cy="415" rx="26" ry="20" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.6"/>
+        <ellipse cx="30" cy="486" rx="23" ry="18" fill="url(#pool)"/>
+        <ellipse cx="30" cy="486" rx="23" ry="18" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.6"/>
+        <ellipse cx="30" cy="552" rx="27" ry="19" fill="url(#pool)"/>
+        <ellipse cx="30" cy="552" rx="27" ry="19" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.6"/>
+        <ellipse cx="30" cy="620" rx="24" ry="18" fill="url(#pool)"/>
+        <ellipse cx="30" cy="620" rx="24" ry="18" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.6"/>
+        <ellipse cx="30" cy="690" rx="27" ry="20" fill="url(#pool)"/>
+        <ellipse cx="30" cy="690" rx="27" ry="20" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.6"/>
+        <ellipse cx="30" cy="762" rx="25" ry="19" fill="url(#pool)"/>
+        <ellipse cx="30" cy="762" rx="25" ry="19" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.6"/>
+        <ellipse cx="30" cy="834" rx="28" ry="21" fill="url(#pool)"/>
+      </g>
+      <g fill="#ffffff" opacity="0.4">
+        <ellipse cx="18" cy="368" rx="4.5" ry="13"/>
+        <ellipse cx="41" cy="358" rx="3.5" ry="10"/>
+        <ellipse cx="14" cy="452" rx="4" ry="11"/>
+        <ellipse cx="44" cy="460" rx="3.5" ry="10"/>
+        <ellipse cx="20" cy="592" rx="4" ry="10"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="cover-photo">
+    <img src="assets/retrato.jpg" alt="Nena Mejía">
+  </div>
+
+  <div class="cover-topright on-photo">Distrito de Baños · Lauricocha · Huánuco</div>
+  <div class="footerbar">Por un distrito con oportunidad para todos</div>
+</div>
+
+<!-- ======================================================= PAGE 2 : QUIÉN ES ======================================================= -->
+<div class="page" id="p2">
+  <div class="content-pad">
+    <div class="doc-header">
+      <div class="h-left">
+        <div class="rmark">R</div>
+        <div class="h-title">Renovación Popular · Alcaldía Distrital de Baños</div>
+      </div>
+    </div>
+    <div class="sec-eyebrow eyebrow">Conócela</div>
+    <div class="sec-title heading">¿QUIÉN ES NENA MEJÍA?</div>
+    <div class="sec-underline"></div>
+  </div>
+
+  <div class="body-grid">
+    <div class="col-main">
+      <div class="bio-block">
+        <div class="bio-h">HIJA DE BAÑOS</div>
+        <div class="bio-p">Yaqueline Mejía Soler —"Nena"— nació y creció en Baños. Aquí vive su familia, aquí crecieron sus hijos y aquí estudiaron, en las escuelas del distrito. No necesita que le expliquen los problemas de Baños: los conoce porque los ha vivido.</div>
+      </div>
+      <div class="bio-block">
+        <div class="bio-h">EMPRENDEDORA Y DE TRATO CON LA GENTE</div>
+        <div class="bio-p">Junto a su familia sacó adelante su propio negocio con esfuerzo y constancia. Se involucró de lleno en el mundo lácteo de Baños —vendía queso y otros productos de la zona— y trabajó codo a codo con los ganaderos del distrito, un vínculo comercial que mantiene hasta hoy. De ahí nació su forma de trabajar: cercana, de palabra cumplida y con un espíritu cooperativo, porque aprendió temprano que el progreso de Baños se construye entre productores y comerciantes, no cada uno por su lado.</div>
+      </div>
+      <div class="bio-block">
+        <div class="bio-h">CONOCE EL DISTRITO DE PUNTA A PUNTA</div>
+        <div class="bio-p">Ha caminado los caseríos y estancias de Baños —Santa Rosa, Río Blanco, Cóndorcancha, Agojirca, Toldorume, San Antonio, Pampa Alegre— y conoce a su gente por su nombre. Sabe lo que cuesta mover un producto por trocha y lo que deja una helada o una sequía.</div>
+      </div>
+      <div class="bio-block">
+        <div class="bio-h">UNA CANDIDATURA SENCILLA Y FIRME</div>
+        <div class="bio-p">No ofrece todo a todos. Ofrece algo más concreto: generar condiciones reales de trabajo y crecimiento para la mayoría, empezando por quienes sostienen la economía del distrito con su propio esfuerzo. Gestión clara, presencia en el campo y prioridad para quienes producen.</div>
+      </div>
+      <div class="bio-quote">&ldquo;No vengo a prometer. Vengo a trabajar por el pueblo que me vio crecer.&rdquo;</div>
+    </div>
+
+    <div class="col-side">
+      <div class="data-box">
+        <div class="db-title">Baños en datos</div>
+        <div class="data-item"><div class="di-k">Dónde está.</div><div class="di-v">Provincia de Lauricocha, región Huánuco. La capital está a 3 409 m s. n. m., a orillas del río Nupe, a 112 km de Huánuco.</div></div>
+        <div class="data-item"><div class="di-k">Territorio.</div><div class="di-v">Extenso y disperso: cerca de 183 km² y más de 150 centros poblados. Los más grandes: Santa Rosa, Río Blanco y Cóndorcancha.</div></div>
+        <div class="data-item"><div class="di-k">Economía.</div><div class="di-v">Ganadería lechera. Se elabora queso, yogurt, mantequilla y manjar, articulados por la Asociación de Ganaderos de Baños.</div></div>
+        <div class="data-item"><div class="di-k">Su nombre.</div><div class="di-v">Del quechua <i>Qoñoc</i>, "agua caliente". Los baños termales de El Batán (cerca de 3 700 m) se usan desde tiempos prehispánicos.</div></div>
+        <div class="data-item"><div class="di-k">Turismo de altura.</div><div class="di-v">Mirador del Yerupajá (6 635 m, la segunda cumbre más alta del Perú) y de la Cordillera Huayhuash, en la misma provincia.</div></div>
+        <div class="data-item"><div class="di-k">Herencia milenaria.</div><div class="di-v">El Hombre de Lauricocha vivió en la zona hace más de 9 000 años; cerca del pueblo quedan restos de Kalash Punta.</div></div>
+        <div class="data-item" style="margin-bottom:0;"><div class="di-k">Fiestas.</div><div class="di-v">Señor de Mayo (1–6 de mayo), Carnavales y el Festival del Queso en septiembre.</div></div>
+        <div class="data-src">Fuentes: INEI; Wikipedia "Distrito de Baños"; iPerú; Tu Diario Huánuco. Cifras referenciales para orientación del lector.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="htd-row">
+    <div class="htd-card"><div class="htd-badge">H</div><div class="ht">HONESTIDAD</div><div class="hd">Cuentas claras y gestión cercana a la gente.</div></div>
+    <div class="htd-card"><div class="htd-badge">T</div><div class="ht">TRABAJO</div><div class="hd">Presencia constante en el campo, no solo en la oficina.</div></div>
+    <div class="htd-card"><div class="htd-badge">D</div><div class="ht">DESARROLLO</div><div class="hd">Crecimiento para la mayoría, no para unos pocos.</div></div>
+  </div>
+
+  <div class="footerbar">Renovación Popular · Alcaldía Distrital de Baños</div>
+</div>
+
+<!-- ======================================================= PAGE 3 : PLAN DE GOBIERNO (1/2) ======================================================= -->
+<div class="page" id="p3">
+  <div class="content-pad">
+    <div class="sec-eyebrow eyebrow">Plan de gobierno 2027 – 2030</div>
+    <div class="sec-title heading" style="font-size:30px;">LO QUE SOSTIENE A BAÑOS, PRIMERO</div>
+    <div class="sec-underline"></div>
+  </div>
+
+  <div class="intro-box">Un plan ordenado alrededor de lo que de verdad mueve al distrito: <b>producir mejor, mover el producto y preparar al pueblo para crecer.</b> Gestión y trabajo, no dádivas.</div>
+
+  <div class="plan-card">
+    <div class="r-watermark" style="right:4mm;top:-2mm;font-size:78px;">R</div>
+    <span class="plan-num">01</span><span class="plan-h">GANADERÍA Y LÁCTEOS CON VALOR AGREGADO</span>
+    <ul class="plan-list">
+      <li>Impulsar una <b>planta procesadora de lácteos formal</b>, para todos los productores del distrito y no solo para unos cuantos.</li>
+      <li>Tecnología moderna de procesamiento y <b>gestión del registro sanitario</b>, para que el queso de Baños se venda en mercados y supermercados fuera del distrito.</li>
+      <li>Capacitación permanente al ganadero, paso a paso: manejo del ganado, ordeño, sanidad y proceso final del queso y el yogurt.</li>
+      <li>Convenio con la <b>Agencia Agraria</b> para el mejoramiento genético del ganado con pajillas de calidad.</li>
+      <li>Feria <b>ganadera y gastronómica en Pampa Alegre</b>, con fecha fija en el calendario del distrito.</li>
+    </ul>
+  </div>
+
+  <div class="plan-card">
+    <span class="plan-num">02</span><span class="plan-h">AGUA FRENTE A LA SEQUÍA</span>
+    <ul class="plan-list">
+      <li>Continuar y ampliar las <b>qochas y la siembra y cosecha de agua</b> ya iniciadas, para asegurar agua y pasto en época seca.</li>
+      <li>Reservorios comunales en las zonas más golpeadas por la falta de lluvia.</li>
+      <li><b>Riego tecnificado y pastos cultivados</b>, priorizando Santa Rosa, Cóndorcancha, Agojirca y Toldorume.</li>
+      <li>Continuar con la <b>gestión del proyecto de Jaqsha</b>.</li>
+    </ul>
+  </div>
+
+  <div class="plan-card" style="margin-bottom:0;">
+    <span class="plan-num">03</span><span class="plan-h">CAMINOS Y CONECTIVIDAD</span>
+    <ul class="plan-list">
+      <li>Gestión directa ante el <b>Gobierno Regional</b> para el mantenimiento de las carreteras que hoy dificultan sacar la producción a tiempo y en buen estado.</li>
+      <li>Apertura y mejora de la <b>vía a Agojirca</b>.</li>
+      <li><b>Pistas, veredas y plaza de Santa Rosa</b>; plaza de Río Blanco.</li>
+      <li>Locales comunales en los caseríos que aún no los tienen.</li>
+    </ul>
+  </div>
+
+  <div class="photo-band">
+    <img src="assets/paisaje.jpg" alt="Cordillera Huayhuash">
+    <div class="cap">La campiña altoandina de Baños y, al fondo, los nevados de la <b>Cordillera Huayhuash</b> —con el Yerupajá, segunda cumbre más alta del Perú— dentro de la provincia de Lauricocha.</div>
+  </div>
+  <div class="footerbar">Renovación Popular · Alcaldía Distrital de Baños</div>
+</div>
+
+<!-- ======================================================= PAGE 4 : PLAN DE GOBIERNO (2/2) + CIERRE ======================================================= -->
+<div class="page" id="p4">
+  <div class="content-pad">
+    <div class="sec-eyebrow eyebrow">Plan de gobierno 2027 – 2030</div>
+    <div class="sec-title heading" style="font-size:30px;">TURISMO, SALUD Y SERVICIOS</div>
+    <div class="sec-underline"></div>
+  </div>
+
+  <div class="plan-card">
+    <span class="plan-num">04</span><span class="plan-h">TURISMO: AGUAS TERMALES Y PUERTA AL HUAYHUASH</span>
+    <ul class="plan-list">
+      <li>Poner en valor los <b>baños termales de El Batán (Tinticocha)</b>: mejores servicios básicos, limpieza y mantenimiento para el visitante.</li>
+      <li>Posicionar a Baños como <b>puerta de entrada alterna a la Cordillera Huayhuash</b> y al nevado Yerupajá.</li>
+      <li>Gestionar la mejora de la <b>vía Lima–Baños</b> para acortar y facilitar el viaje del turista.</li>
+      <li>Preparar al pueblo: hospedaje básico, señalización y seguridad.</li>
+      <li>Circuito corto que una las termas, la plaza del pueblo y la experiencia quesera de Baños.</li>
+    </ul>
+  </div>
+
+  <div class="plan-card">
+    <span class="plan-num">05</span><span class="plan-h">SALUD, EDUCACIÓN Y SERVICIOS</span>
+    <ul class="plan-list">
+      <li>Fiscalizar y exigir la <b>culminación del establecimiento de salud / hospital de Baños</b> conforme al expediente.</li>
+      <li>Construcción de la <b>I.E. N.° 042 Inicial de Baños</b>.</li>
+      <li>Ampliación de la <b>red de electrificación</b> en las localidades que aún no cuentan con el servicio.</li>
+      <li>Culminación del <b>estadio de Pampa Alegre</b> y grass sintético en Cóndorcancha y San Antonio.</li>
+      <li>Promoción del deporte y las actividades culturales del distrito.</li>
+    </ul>
+  </div>
+
+  <div class="value-row">
+    <div class="value-card"><div class="vt">HONESTIDAD</div><div class="vd">Cuentas claras y audiencias públicas para rendir lo que se hace y lo que se gasta.</div></div>
+    <div class="value-card"><div class="vt">PRESENCIA</div><div class="vd">La alcaldía en el campo y en los caseríos, no solo detrás de un escritorio.</div></div>
+    <div class="value-card"><div class="vt">PRIORIDAD</div><div class="vd">Primero quienes producen: ganaderos, agricultores y comerciantes del distrito.</div></div>
+  </div>
+
+  <div class="cta-box">
+    <div class="ct1 display">ESTE 4 DE OCTUBRE, MARCA LA R</div>
+    <div class="ct2">Nena Mejía · Alcaldesa por Baños 2027 – 2030</div>
+    <div class="ct3"><div class="rmark">R</div><span>Por un distrito con oportunidad para todos</span></div>
+  </div>
+
+  <div class="credits">Documento de difusión de la candidatura de Yaqueline "Nena" Mejía Soler — Renovación Popular, distrito de Baños, provincia de Lauricocha, región Huánuco.<br>Retrato: material de campaña. Paisaje de la Cordillera Huayhuash: W. Beteta Pacheco, Wikimedia Commons (CC BY-SA 4.0). Ilustración de aguas termales: elaboración propia. Las propuestas están sujetas a disponibilidad presupuestal y a gestión ante los niveles de gobierno competentes.</div>
+
+  <div class="footerbar">Renovación Popular · Alcaldía Distrital de Baños</div>
+</div>
+
+</body>
+</html>
