@@ -50,6 +50,17 @@ reconstruido a partir del PDF original para poder aplicar las correcciones pedid
    campaña. Se confirmaron sí como correctos: la altitud (3 409 m s.n.m.),
    el río Nupe y la distancia a Huánuco (112 km).
 
+**Cuarta ronda**
+
+1. Se quitó la franja de ilustración con las pozas termales ("las bolitas")
+   de la portada. Ahora la portada es solo: panel de color a la izquierda
+   con el mensaje/logo, y la foto de la candidata ocupando la otra mitad de
+   la página — sin ningún elemento decorativo entre ambos.
+2. De paso se corrigió un problema de superposición: la barra azul del pie
+   de la portada ("Por un distrito con oportunidad para todos") se veía
+   cortada bajo el panel de color; ahora se muestra completa en todo el
+   ancho de la página.
+
 ## Regenerar el PDF
 
 Requiere Node.js con el paquete `playwright` y Chromium instalado.
