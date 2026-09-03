@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Rótulos · Party Outlet Perú</title>
+<style>
+  @font-face{font-family:'Baloo 2';src:url('../assets/fonts/Baloo2-Variable.woff2') format('woff2');font-weight:500 800;font-style:normal;}
+  @font-face{font-family:'Inter';src:url('../assets/fonts/Inter-Variable.woff2') format('woff2');font-weight:400 800;font-style:normal;}
+
+  :root{
+    --navy:#164e7c;
+    --purple:#7c3aed;
+    --purple-dark:#6d28d9;
+    --pink:#d6317e;
+    --grey-label:#98a2af;
+    --ink:#232830;
+    --line:#e6e9ee;
+    --blue-bg:#eaf5fd;
+    --blue-bg-line:#cfe6f7;
+    --purple-bg:#f4eefb;
+    --purple-bg-line:#e2d3f4;
+    --green-bg:#e4f7ea;
+    --green-line:#b8e6c8;
+    --green-text:#1f9254;
+    --amber-bg:#fff8e3;
+    --amber-line:#e8c766;
+    --amber-text:#8a6d1f;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{background:#eef1f4;}
+  body{font-family:'Inter',Arial,sans-serif;color:var(--ink);}
+
+  .page{
+    width:210mm;height:297mm;position:relative;overflow:hidden;
+    background:#fff;page-break-after:always;
+  }
+  .page:last-of-type{page-break-after:auto;}
+
+  .label{font-family:'Inter',sans-serif;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;font-size:8.6px;color:var(--grey-label);}
+  .heading{font-family:'Baloo 2',sans-serif;font-weight:700;color:var(--navy);}
+
+  /* ============ decorative blobs (template simple) ============ */
+  .blob{position:absolute;border-radius:50%;filter:blur(1px);z-index:0;}
+  .blob-pink{width:120mm;height:120mm;top:-40mm;right:-30mm;background:radial-gradient(circle at 35% 35%, #f6d9ec 0%, #f9ecf5 55%, rgba(249,236,245,0) 75%);}
+  .blob-gold{width:110mm;height:110mm;bottom:-35mm;left:-30mm;background:radial-gradient(circle at 60% 60%, #fbeecb 0%, #fdf6e6 55%, rgba(253,246,230,0) 75%);}
+
+  /* ============ gradient-bordered card ============ */
+  .card{position:relative;z-index:1;border-radius:22px;padding:3px;
+    background:linear-gradient(135deg,#43b34c 0%,#e94ea0 30%,#9a3fd6 52%,#2f8fe0 74%,#f0b93a 100%);
+  }
+  .card-inner{background:#fff;border-radius:19px;height:100%;position:relative;overflow:hidden;}
+
+  /* ============ TEMPLATE: detallado (envío + lista de alistamiento) ============ */
+  .page-detallado{padding-top:14mm;}
+  .page-detallado .card{margin:0 15mm;height:132mm;}
+  .page-detallado .card-inner{padding:9mm 11mm 10mm 11mm;display:flex;flex-direction:column;}
+
+  .det-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6mm;}
+  .det-logo img{height:15mm;display:block;}
+  .det-code{text-align:right;}
+  .det-code .code-val{font-family:'Baloo 2',sans-serif;font-weight:800;font-size:19px;color:var(--purple-dark);margin-top:1mm;}
+  .det-code .pedido-fecha{font-size:9.5px;color:#8a94a3;margin-top:1mm;}
+
+  .det-rule{height:1px;background:var(--line);margin-bottom:5mm;}
+
+  .det-cliente{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:23px;color:var(--ink);margin-bottom:5mm;line-height:1.15;}
+
+  .det-fields{display:flex;gap:14mm;margin-bottom:5mm;}
+  .det-fields .field .label{margin-bottom:1.5mm;display:block;}
+  .det-fields .field .val{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:15.5px;}
+  .det-fields .val.purple{color:var(--purple);}
+  .det-fields .val.dark{color:var(--ink);}
+
+  .det-tematica{display:flex;align-items:center;background:#f6f7f8;border-left:4px solid var(--pink);border-radius:6px;
+    padding:3mm 4mm;font-size:11px;color:#4a5260;margin-bottom:5mm;}
+  .det-tematica b{color:var(--ink);font-weight:700;margin-left:1mm;}
+
+  .det-destino{background:var(--blue-bg);border:1px solid var(--blue-bg-line);border-radius:12px;padding:5mm 6mm;flex:1;}
+  .det-destino .label{margin-bottom:2mm;display:block;}
+  .det-destino .ciudad{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:20px;color:var(--navy);margin-bottom:2.5mm;}
+  .det-destino .linea{font-size:11px;color:#3a4757;margin-bottom:1.5mm;}
+  .det-destino .linea b{color:var(--navy);}
+  .det-destino .enviar{font-family:'Inter',sans-serif;font-weight:700;font-size:11.5px;color:var(--navy);margin-top:1.5mm;}
+
+  .cutline{display:flex;align-items:center;gap:3mm;margin:8mm 15mm 6mm 15mm;color:#9aa4af;font-size:9.5px;
+    letter-spacing:1.4px;text-transform:uppercase;font-weight:700;}
+  .cutline .dash{flex:1;border-top:1.6px dashed #c6ccd4;}
+
+  .alist{margin:0 15mm;}
+  .alist-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4mm;}
+  .alist-head .titulo{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:13.5px;letter-spacing:.3px;}
+  .alist-head .meta{font-size:10px;color:#98a2af;}
+
+  .estado-pago{display:flex;align-items:center;gap:3mm;font-size:10.5px;color:#4a5260;margin-bottom:5mm;}
+  .pill{display:inline-flex;align-items:center;gap:1.5mm;border-radius:20px;padding:1.5mm 4mm;font-weight:700;font-size:10px;}
+  .pill.green{background:var(--green-bg);border:1px solid var(--green-line);color:var(--green-text);}
+  .pill.amber{background:var(--amber-bg);border:1px solid var(--amber-line);color:var(--amber-text);}
+
+  table.prod{width:100%;border-collapse:collapse;}
+  table.prod thead th{text-align:left;font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:#98a2af;
+    font-weight:700;padding-bottom:2.5mm;border-bottom:1px solid var(--line);}
+  table.prod thead th.cant{text-align:right;}
+  table.prod tbody td{padding:3.2mm 0;border-bottom:1px solid #f0f2f4;font-size:12px;vertical-align:middle;}
+  table.prod tbody td.chk{width:6mm;}
+  table.prod tbody td.cant{text-align:right;font-family:'Baloo 2',sans-serif;font-weight:700;color:var(--purple);font-size:12.5px;}
+  .checkbox{width:4mm;height:4mm;border:1.6px solid #c6ccd4;border-radius:3px;display:inline-block;}
+
+  .alist-nota{margin-top:5mm;padding-top:3.5mm;border-top:1px solid var(--line);font-size:10px;color:#6b7280;}
+  .alist-nota b{color:#4a5260;}
+
+  /* ============ TEMPLATE: simple (rótulo de envío) ============ */
+  .page-simple .card{position:absolute;left:32mm;right:32mm;top:16mm;bottom:22mm;}
+  .page-simple .card-inner{padding:10mm 12mm 8mm 12mm;display:flex;flex-direction:column;}
+
+  .sim-code{position:absolute;top:8mm;right:9mm;border:1px solid var(--purple-bg-line);border-radius:10px;
+    padding:2mm 4mm;text-align:center;background:#fff;}
+  .sim-code .code-val{font-family:'Baloo 2',sans-serif;font-weight:800;font-size:12.5px;color:var(--purple-dark);}
+
+  .sim-logo{text-align:center;margin-bottom:2mm;}
+  .sim-logo img{height:20mm;}
+  .sim-subtitulo{text-align:center;letter-spacing:3px;font-size:9.5px;color:#9aa4af;font-weight:700;
+    text-transform:uppercase;margin-bottom:4mm;}
+  .sim-rule{height:1px;background:linear-gradient(90deg, rgba(240,185,58,0) 0%, #e8c766 50%, rgba(240,185,58,0) 100%);margin-bottom:6mm;}
+
+  .sim-cliente-row{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:5mm;}
+  .sim-cliente-row .label{display:block;margin-bottom:2mm;}
+  .sim-cliente-row .nombre{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:21px;color:var(--ink);line-height:1.15;max-width:112mm;}
+  .sim-cliente-row .cel{text-align:right;flex:none;}
+  .sim-cliente-row .cel .val{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:13px;color:var(--ink);}
+
+  .sim-dni{background:var(--purple-bg);border:1px solid var(--purple-bg-line);border-radius:12px;
+    padding:4mm 6mm;margin-bottom:5mm;display:flex;align-items:center;gap:3mm;}
+  .sim-dni .label{display:block;margin-bottom:1.5mm;}
+  .sim-dni .val{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:16.5px;color:var(--purple);}
+
+  .sim-destino{background:var(--blue-bg);border:1px solid var(--blue-bg-line);border-radius:14px;padding:6mm 7mm;flex:1;}
+  .sim-destino .label{display:block;margin-bottom:3mm;}
+  .sim-destino .heading{font-size:22px;line-height:1.15;margin-bottom:4mm;}
+  .chip{display:inline-flex;align-items:center;gap:2mm;background:#fff;border:1px solid var(--blue-bg-line);
+    border-radius:20px;padding:2mm 4.5mm;font-family:'Baloo 2',sans-serif;font-weight:700;font-size:12px;color:var(--navy);
+    margin-bottom:4mm;}
+  .sim-destino .direccion{font-size:10.5px;color:#3a4757;padding-bottom:3.5mm;border-bottom:1px dashed #c8dbea;margin-bottom:3.5mm;}
+  .sim-destino .nota-fecha{font-family:'Inter',sans-serif;font-weight:700;font-size:11.5px;color:var(--navy);}
+
+  .sim-footer{margin-top:6mm;padding-top:4mm;border-top:1px solid var(--line);text-align:center;}
+  .sim-footer .brand{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:11px;letter-spacing:.5px;color:var(--purple-dark);margin-bottom:1.5mm;}
+  .sim-footer .sub{font-size:9px;color:#98a2af;}
+
+  .warning-box{position:absolute;left:32mm;right:32mm;bottom:10mm;border:1.5px dashed var(--amber-line);
+    background:var(--amber-bg);border-radius:10px;padding:3mm 5mm;font-size:10px;color:var(--amber-text);z-index:2;}
+
+  /* ============ print ============ */
+  @page{size:210mm 297mm;margin:0;}
+</style>
+</head>
+<body>
+<!--PAGES-->
+</body>
+</html>
