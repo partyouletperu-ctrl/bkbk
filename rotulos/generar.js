@@ -109,7 +109,7 @@ function pageSimple(p) {
           </div>
           <div class="cel">
             <span class="label">Cel.</span>
-            <div class="val">${esc(p.celular)}</div>
+            <div class="val">${p.celular ? esc(p.celular) : 'No especificado'}</div>
           </div>
         </div>
 
