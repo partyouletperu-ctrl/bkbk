@@ -89,6 +89,23 @@
         { "nombre": "Cajas de caramelo — Saja Boys", "cantidad": "10" },
         { "nombre": "Cajas pirámide — Saja Boys", "cantidad": "10" }
       ]
+    },
+    {
+      "tipo": "detallado",
+      "codigo": "XUUJ",
+      "cliente": "Roxana Cabana Quispe",
+      "dni": "72942200",
+      "celular": "926 876 707",
+      "tematica": "Conejito + Goku Bebé",
+      "destinoCiudad": "Arequipa",
+      "destinoLinea": "Agencia: **Shalom Ciudad Municipal**",
+      "enviarFecha": "Enviar: **Lunes 14/09/2026**",
+      "estadoPago": "PAGADO",
+      "nota": "pedido pagado en su totalidad.",
+      "productos": [
+        { "nombre": "Caja sorpresa — Conejito", "cantidad": "30" },
+        { "nombre": "Caja sorpresa — Goku Bebé", "cantidad": "30" }
+      ]
     }
   ]
 }
