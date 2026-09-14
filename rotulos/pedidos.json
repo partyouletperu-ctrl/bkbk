@@ -130,6 +130,31 @@
         { "nombre": "Arco de globos", "cantidad": "1" },
         { "nombre": "Piñata estrella personalizado", "cantidad": "1" }
       ]
+    },
+    {
+      "tipo": "detallado",
+      "codigo": "LR3Q",
+      "pedidoFecha": "12/09/2026",
+      "cliente": "Rosmery Ipanaque",
+      "dni": "973345655",
+      "dniLabel": "DNI / CE",
+      "celular": null,
+      "tematica": "K Pop + Saja Boys",
+      "destinoCiudad": "Miraflores, Lima",
+      "destinoLinea": "🛵 Motorizado — Av. Paseo de la República 5762, Dpto. 502 (ref. a una cuadra de Av. Shell)",
+      "enviarFecha": "Enviar: **Lunes 14/09/2026**",
+      "estadoPago": "PAGADO",
+      "nota": "pedido pagado en su totalidad.",
+      "warning": "El campo DNI/CE (973345655) tiene formato de celular y no se registró teléfono — confirmar con la clienta.",
+      "productos": [
+        { "nombre": "Paq. de corbatas", "cantidad": "3" },
+        { "nombre": "Globos silueta K Pop", "cantidad": "2" },
+        { "nombre": "Bolsas herméticas K Pop", "cantidad": "30" },
+        { "nombre": "Etiqueta de botella K Pop", "cantidad": "1 ciento" },
+        { "nombre": "Gorros temático K Pop", "cantidad": "10" },
+        { "nombre": "Gorros temático Saja Boys", "cantidad": "10" },
+        { "nombre": "Arco de globos K-Pop", "cantidad": "1" }
+      ]
     }
   ]
 }

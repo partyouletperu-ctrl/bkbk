@@ -100,6 +100,7 @@ function pageDetallado(p) {
       <div class="estado-pago">Estado de pago: ${pillEstado(p.estadoPago)}</div>
       ${tablaProductos(p.productos)}
       ${p.nota ? `<div class="alist-nota"><b>Nota:</b> ${esc(p.nota)}</div>` : ''}
+      ${p.warning ? `<div class="det-warning">⚠ ${esc(p.warning)}</div>` : ''}
     </div>
   </div>`;
 }
