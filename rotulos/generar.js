@@ -26,14 +26,36 @@ function pillEstado(estado) {
   return `<span class="pill ${cls}">${esc(estado)}${marca}</span>`;
 }
 
-function pageDetallado(p) {
-  const filas = (p.productos || []).map(prod => `
+function fila(prod) {
+  return `
         <tr>
           <td class="chk"><span class="checkbox"></span></td>
           <td>${esc(prod.nombre)}</td>
           <td class="cant">${esc(prod.cantidad)}${prod.detalle ? `<br>(${esc(prod.detalle)})` : ''}</td>
-        </tr>`).join('');
+        </tr>`;
+}
 
+// Tabla en una sola columna hasta 8 productos; más de eso, en dos columnas
+// para que la lista siempre entre en una sola hoja.
+function tablaProductos(productos) {
+  const lista = productos || [];
+  if (lista.length <= 8) {
+    return `<table class="prod">
+        <thead><tr><th></th><th>Producto</th><th class="cant">Cant.</th></tr></thead>
+        <tbody>${lista.map(fila).join('')}</tbody>
+      </table>`;
+  }
+  const mitad = Math.ceil(lista.length / 2);
+  const col1 = lista.slice(0, mitad);
+  const col2 = lista.slice(mitad);
+  const columna = (items) => `<table class="prod compact">
+        <thead><tr><th></th><th>Producto</th><th class="cant">Cant.</th></tr></thead>
+        <tbody>${items.map(fila).join('')}</tbody>
+      </table>`;
+  return `<div class="prod-cols">${columna(col1)}${columna(col2)}</div>`;
+}
+
+function pageDetallado(p) {
   return `
   <div class="page page-detallado">
     <div class="card">
@@ -50,12 +72,12 @@ function pageDetallado(p) {
         <div class="det-cliente">${esc(p.cliente)}</div>
         <div class="det-fields">
           <div class="field">
-            <span class="label">DNI</span>
+            <span class="label">${esc(p.dniLabel || 'DNI')}</span>
             <div class="val ${p.dni ? 'purple' : 'dark'}">${p.dni ? esc(p.dni) : 'No especificado'}</div>
           </div>
           <div class="field">
             <span class="label">Celular</span>
-            <div class="val dark">${esc(p.celular)}</div>
+            <div class="val dark">${p.celular ? esc(p.celular) : 'No especificado'}</div>
           </div>
         </div>
         ${p.tematica ? `<div class="det-tematica">Temática: <b>${esc(p.tematica)}</b></div>` : ''}
@@ -76,10 +98,7 @@ function pageDetallado(p) {
         <span class="meta">${esc(p.codigo)}${p.tematica ? ' · ' + esc(p.tematica) : ''}</span>
       </div>
       <div class="estado-pago">Estado de pago: ${pillEstado(p.estadoPago)}</div>
-      <table class="prod">
-        <thead><tr><th></th><th>Producto</th><th class="cant">Cant.</th></tr></thead>
-        <tbody>${filas}</tbody>
-      </table>
+      ${tablaProductos(p.productos)}
       ${p.nota ? `<div class="alist-nota"><b>Nota:</b> ${esc(p.nota)}</div>` : ''}
     </div>
   </div>`;

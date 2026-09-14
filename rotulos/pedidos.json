@@ -1,5 +1,5 @@
 {
-  "_nota": "Rótulo del 13-14/09/2026. Incluye lista de alistamiento (solo producto + cantidad, sin precios ni montos).",
+  "_nota": "Rótulos del 12-14/09/2026. Incluye lista de alistamiento (solo producto + cantidad, sin precios ni montos). A partir de ahora, siempre en una sola hoja.",
   "fecha": "14Sep",
   "whatsapp": "944 751 287",
   "pedidos": [
@@ -30,6 +30,31 @@
         { "nombre": "Cucharas color verde", "cantidad": "50" },
         { "nombre": "Corona", "cantidad": "1" },
         { "nombre": "Inflador eléctrico", "cantidad": "1" }
+      ]
+    },
+    {
+      "tipo": "detallado",
+      "codigo": "D9NB",
+      "pedidoFecha": "12/09/2026",
+      "cliente": "Luisangela Dionicie",
+      "dni": "005043270",
+      "dniLabel": "CE",
+      "celular": "946 582 566",
+      "tematica": "Sheriff Labrador",
+      "destinoCiudad": "Nuevo Lurín, Lima",
+      "destinoLinea": "Agencia: **Shalom** — Antigua Panamericana Sur km 37",
+      "enviarFecha": "Enviar: **Lunes 14/09/2026**",
+      "estadoPago": "PAGO PARCIAL",
+      "nota": "queda un saldo pendiente por cancelar.",
+      "productos": [
+        { "nombre": "Promociones", "cantidad": "30" },
+        { "nombre": "Cajas sorpresas", "cantidad": "30" },
+        { "nombre": "Cajas de torta", "cantidad": "30" },
+        { "nombre": "Cajas de cancha", "cantidad": "30" },
+        { "nombre": "Vasos", "cantidad": "30" },
+        { "nombre": "Cajas pirámide", "cantidad": "30" },
+        { "nombre": "Tarjeta de invitación", "cantidad": "30" },
+        { "nombre": "Piñata estrella", "cantidad": "1" }
       ]
     }
   ]
