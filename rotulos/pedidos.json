@@ -106,6 +106,30 @@
         { "nombre": "Caja sorpresa — Conejito", "cantidad": "30" },
         { "nombre": "Caja sorpresa — Goku Bebé", "cantidad": "30" }
       ]
+    },
+    {
+      "tipo": "detallado",
+      "codigo": "GR75",
+      "pedidoFecha": "12/09/2026",
+      "cliente": "Yisely Aracely Quispe Conza",
+      "dni": "60731920",
+      "celular": "953 462 758",
+      "tematica": "Katseye",
+      "destinoCiudad": "Arequipa",
+      "destinoLinea": "Agencia: **Shalom Av. Parra**",
+      "enviarFecha": "Enviar: **Lunes 14/09/2026**",
+      "estadoPago": "PAGADO",
+      "nota": "pedido pagado en su totalidad.",
+      "productos": [
+        { "nombre": "Promociones", "cantidad": "20" },
+        { "nombre": "Cajas sorpresas", "cantidad": "20" },
+        { "nombre": "Cajas de torta", "cantidad": "20" },
+        { "nombre": "Cajas de pop corn", "cantidad": "20" },
+        { "nombre": "Cajas pirámide", "cantidad": "20" },
+        { "nombre": "Cajas carameleras", "cantidad": "20" },
+        { "nombre": "Arco de globos", "cantidad": "1" },
+        { "nombre": "Piñata estrella personalizado", "cantidad": "1" }
+      ]
     }
   ]
 }
