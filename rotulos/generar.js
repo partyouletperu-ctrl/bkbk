@@ -113,6 +113,8 @@ function pageSimple(p) {
           </div>
         </div>
 
+        ${p.tematica ? `<div class="sim-tematica">🎉 Temática: <b>${esc(p.tematica)}</b></div>` : ''}
+
         <div class="sim-dni">
           <div>
             <span class="label">${esc(p.dniLabel || 'DNI / CE')}</span>
