@@ -177,6 +177,29 @@
         { "nombre": "Invitaciones", "cantidad": "20" },
         { "nombre": "Cajas carameleras", "cantidad": "20" }
       ]
+    },
+    {
+      "tipo": "detallado",
+      "codigo": "H546",
+      "pedidoFecha": "12/09/2026",
+      "cliente": "Keyla Yassmin Atoche Tinoco",
+      "dni": "62792873",
+      "celular": "937 689 640",
+      "tematica": "Cenicienta",
+      "destinoCiudad": "Las Lomas, Piura",
+      "destinoLinea": "Agencia: **Shalom**",
+      "enviarFecha": "Enviar: **Lunes 14/09/2026**",
+      "estadoPago": "PAGADO",
+      "nota": "pedido pagado en su totalidad.",
+      "productos": [
+        { "nombre": "Bolsas herméticas", "cantidad": "50" },
+        { "nombre": "Relleno XL", "cantidad": "2" },
+        { "nombre": "Cajas sorpresa", "cantidad": "20" },
+        { "nombre": "Cajas de torta", "cantidad": "50" },
+        { "nombre": "Vasos temático", "cantidad": "50" },
+        { "nombre": "Cajas de cancha", "cantidad": "50" },
+        { "nombre": "Piñata crepé", "cantidad": "1" }
+      ]
     }
   ]
 }
