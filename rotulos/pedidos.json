@@ -56,6 +56,39 @@
         { "nombre": "Tarjeta de invitación", "cantidad": "30" },
         { "nombre": "Piñata estrella", "cantidad": "1" }
       ]
+    },
+    {
+      "tipo": "detallado",
+      "codigo": "93LJ",
+      "pedidoFecha": "13/09/2026",
+      "cliente": "Herlinda Portillo Machaca",
+      "dni": "70476492",
+      "celular": "989 598 242",
+      "tematica": "K Pop Animado + Saja Boys Animado",
+      "destinoCiudad": "Majes, Caylloma - Arequipa",
+      "destinoLinea": "Agencia: **Shalom Majes Pedregal**",
+      "enviarFecha": "Enviar: **Lunes 13/09/2026**",
+      "estadoPago": "PAGO PARCIAL",
+      "nota": "queda un saldo pendiente por cancelar.",
+      "productos": [
+        { "nombre": "Promociones — K Pop", "cantidad": "10" },
+        { "nombre": "Cajas sorpresas — K Pop", "cantidad": "10" },
+        { "nombre": "Cajas de torta — K Pop", "cantidad": "10" },
+        { "nombre": "Cajas de cancha — K Pop", "cantidad": "10" },
+        { "nombre": "Cajas de caramelo — K Pop", "cantidad": "10" },
+        { "nombre": "Cajas pirámide — K Pop", "cantidad": "10" },
+        { "nombre": "Piñata estrella", "cantidad": "1" },
+        { "nombre": "Arco de globos", "cantidad": "1" },
+        { "nombre": "Relleno XL", "cantidad": "1" },
+        { "nombre": "Mantel de mesa", "cantidad": "1" },
+        { "nombre": "Maso temático", "cantidad": "1" },
+        { "nombre": "Promociones — Saja Boys", "cantidad": "10" },
+        { "nombre": "Cajas sorpresas — Saja Boys", "cantidad": "10" },
+        { "nombre": "Cajas de torta — Saja Boys", "cantidad": "10" },
+        { "nombre": "Cajas de cancha — Saja Boys", "cantidad": "10" },
+        { "nombre": "Cajas de caramelo — Saja Boys", "cantidad": "10" },
+        { "nombre": "Cajas pirámide — Saja Boys", "cantidad": "10" }
+      ]
     }
   ]
 }
