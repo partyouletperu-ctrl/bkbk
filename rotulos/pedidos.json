@@ -155,6 +155,28 @@
         { "nombre": "Gorros temático Saja Boys", "cantidad": "10" },
         { "nombre": "Arco de globos K-Pop", "cantidad": "1" }
       ]
+    },
+    {
+      "tipo": "detallado",
+      "codigo": "VXUQ",
+      "cliente": "Eynor Flores Aricari",
+      "dni": "75792644",
+      "dniLabel": "DNI / CE",
+      "celular": "940 469 991",
+      "tematica": "Cara",
+      "destinoCiudad": "Mala",
+      "destinoLinea": "Agencia: **Shalom**",
+      "enviarFecha": "Enviar: **Lunes 14/09/2026**",
+      "estadoPago": "PAGADO",
+      "nota": "pedido pagado en su totalidad.",
+      "productos": [
+        { "nombre": "Promociones", "cantidad": "20" },
+        { "nombre": "Cajas sorpresas", "cantidad": "20" },
+        { "nombre": "Cajas de torta", "cantidad": "20" },
+        { "nombre": "Cajas de pop corn", "cantidad": "20" },
+        { "nombre": "Invitaciones", "cantidad": "20" },
+        { "nombre": "Cajas carameleras", "cantidad": "20" }
+      ]
     }
   ]
 }
