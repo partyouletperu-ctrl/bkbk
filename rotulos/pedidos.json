@@ -1,33 +1,28 @@
 {
-  "_nota": "Rótulo único de Tamara Sanguinez (Kuromi). El pedido 'Plim Plim niño' (cotización) queda pendiente: no trae nombre ni datos del cliente.",
-  "fecha": "16Sep-Tamara",
+  "_nota": "Rótulo de Plim Plim Niño con cliente genérico (nombre no confirmado en el mensaje) — completar datos antes de despachar.",
+  "fecha": "16Sep-PlimPlim",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "3ATR",
-      "pedidoFecha": "14/09/2026",
-      "cliente": "Tamara Sanguinez",
-      "dni": "47106703",
-      "celular": "986 861 573",
-      "tematica": "Kuromi",
-      "destinoCiudad": "San Miguel, Lima",
-      "destinoLinea": "🛵 Motorizado — Av. Bertoloto 111",
-      "enviarFecha": "Enviar: **Miércoles 16/09/2026**",
-      "estadoPago": "PAGADO",
-      "nota": "pedido pagado en su totalidad.",
+      "codigo": "FYPQ",
+      "cliente": "CLIENTE POR CONFIRMAR",
+      "dni": null,
+      "celular": null,
+      "tematica": "Plim Plim Niño",
+      "destinoCiudad": "Motorizado (dirección no indicada)",
+      "destinoLinea": "🛵 Motorizado",
+      "enviarFecha": "Enviar: **Miércoles 16/09/2026, 4pm a 7pm**",
+      "estadoPago": "PAGO PARCIAL",
+      "nota": "queda un saldo pendiente por cancelar.",
+      "warning": "Falta confirmar nombre del cliente, DNI, celular y dirección exacta de entrega antes de despachar.",
       "productos": [
-        { "nombre": "Promociones", "cantidad": "30" },
-        { "nombre": "Cajas sorpresas", "cantidad": "30" },
-        { "nombre": "Cajas de torta", "cantidad": "30" },
-        { "nombre": "Cajas de cancha", "cantidad": "30" },
-        { "nombre": "Cajas de caramelo", "cantidad": "30" },
-        { "nombre": "Cajas pirámide", "cantidad": "30" },
-        { "nombre": "Arco de globos", "cantidad": "1" },
-        { "nombre": "Número metálico 60cm #8 color", "cantidad": "1" },
-        { "nombre": "Mantel temático", "cantidad": "1" },
-        { "nombre": "Maso temático", "cantidad": "1" },
-        { "nombre": "Hilo pescar x100m", "cantidad": "1" }
+        { "nombre": "Cajas sorpresa", "cantidad": "30" },
+        { "nombre": "Bolsas de cancha en celofán", "cantidad": "50" },
+        { "nombre": "Amarre metálico", "cantidad": "x100" },
+        { "nombre": "Cajas de torta", "cantidad": "40" },
+        { "nombre": "Bolsas dulceras", "cantidad": "60" },
+        { "nombre": "Tapers de 2kg personalizado", "cantidad": "20" }
       ]
     }
   ]
