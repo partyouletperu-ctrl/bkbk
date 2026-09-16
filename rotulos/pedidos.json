@@ -1,34 +1,29 @@
 {
-  "_nota": "Rótulo único de Tania Liceth Perales Cusi (Granja de Zenón niño).",
-  "fecha": "16Sep-Tania",
+  "_nota": "Rótulo único de Lisi Yanina Pintado Quintana (Minnie Golden).",
+  "fecha": "16Sep-Lisi",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "3W3Z",
-      "pedidoFecha": "16/09/2026",
-      "cliente": "Tania Liceth Perales Cusi",
-      "dni": "74873345",
-      "celular": "923 869 141",
-      "tematica": "Granja de Zenón niño",
-      "destinoCiudad": "Andahuaylas, Apurímac",
+      "codigo": "S2G5",
+      "pedidoFecha": "04/09/2026",
+      "cliente": "Lisi Yanina Pintado Quintana",
+      "dni": "61352714",
+      "celular": "903 013 898",
+      "tematica": "Minnie Golden",
+      "destinoCiudad": "Bagua Grande, Amazonas",
       "destinoLinea": "Agencia: **Shalom**",
       "enviarFecha": "Enviar: **Miércoles 16/09/2026**",
       "estadoPago": "PAGO PARCIAL",
       "nota": "queda un saldo pendiente por cancelar.",
       "productos": [
-        { "nombre": "Promociones", "cantidad": "20" },
-        { "nombre": "Cajas sorpresas", "cantidad": "20" },
-        { "nombre": "Cajas de torta", "cantidad": "20" },
-        { "nombre": "Cajas de cancha", "cantidad": "20" },
-        { "nombre": "Cajas de caramelo", "cantidad": "20" },
-        { "nombre": "Cajas pirámide", "cantidad": "20" },
-        { "nombre": "Piñata crepé", "cantidad": "1" },
-        { "nombre": "Fuentes de bocaditos", "cantidad": "8" },
-        { "nombre": "Cucharas", "cantidad": "50" },
-        { "nombre": "Relleno XL", "cantidad": "1" },
-        { "nombre": "Arco de globos", "cantidad": "2" },
-        { "nombre": "Mantel temático", "cantidad": "1" }
+        { "nombre": "Promociones", "cantidad": "30" },
+        { "nombre": "Cajita sorpresa", "cantidad": "30" },
+        { "nombre": "Bolsas dulceras", "cantidad": "30" },
+        { "nombre": "Cajita canchera", "cantidad": "40" },
+        { "nombre": "Vasos", "cantidad": "50" },
+        { "nombre": "Tarjeta de invitación", "cantidad": "40" },
+        { "nombre": "Cucharas", "cantidad": "50" }
       ]
     }
   ]
