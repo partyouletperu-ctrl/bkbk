@@ -1,68 +1,34 @@
 {
-  "_nota": "3 rótulos nuevos/actualizados del lote de hoy. (Los pedidos de Carmen Sánchez y Tamara Sanguinez de este mismo chat ya se entregaron antes, no se repiten.)",
-  "fecha": "16Sep-lote2",
+  "_nota": "Actualización del pedido de Tamara Sanguinez (Kuromi): se agregó Piñata armable, total pasó de 92 a 100.",
+  "fecha": "16Sep-Tamara-v2",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "TLYE",
+      "codigo": "3ATR",
       "pedidoFecha": "14/09/2026",
-      "cliente": "Yarumi Canchari",
-      "dni": null,
-      "celular": "914 946 008",
-      "tematica": "Conejita",
-      "destinoCiudad": "Recojo en tienda",
-      "destinoLinea": "📦 **Jr. Paruro 262**",
-      "enviarFecha": "Recojo: **Miércoles 16/09/2026**",
-      "estadoPago": "PAGO PARCIAL",
-      "nota": "queda un saldo pendiente por cancelar. Avisar 30 min antes de recoger.",
-      "productos": [
-        { "nombre": "Cajas de cancha", "cantidad": "20" },
-        { "nombre": "Cajas de torta", "cantidad": "20" }
-      ]
-    },
-    {
-      "tipo": "detallado",
-      "codigo": "PN9Y",
-      "cliente": "Karim Gonzales",
-      "dni": "70154946",
-      "celular": null,
-      "tematica": "Plim Plim Niño",
+      "cliente": "Tamara Sanguinez",
+      "dni": "47106703",
+      "celular": "986 861 573",
+      "tematica": "Kuromi",
       "destinoCiudad": "San Miguel, Lima",
-      "destinoLinea": "🛵 Motorizado — Av. del Pacífico 175",
-      "enviarFecha": "Enviar: **Miércoles 16/09/2026, 4pm a 7pm**",
-      "estadoPago": "PAGO PARCIAL",
-      "nota": "queda un saldo pendiente por cancelar. Persona que recibe: Carlos Pimentel, DNI 07754096.",
-      "productos": [
-        { "nombre": "Cajas sorpresa", "cantidad": "30" },
-        { "nombre": "Bolsas de cancha en celofán", "cantidad": "50" },
-        { "nombre": "Amarre metálico", "cantidad": "x100" },
-        { "nombre": "Cajas de torta", "cantidad": "40" },
-        { "nombre": "Bolsas dulceras", "cantidad": "60" },
-        { "nombre": "Tapers de 2kg personalizado", "cantidad": "20" }
-      ]
-    },
-    {
-      "tipo": "detallado",
-      "codigo": "682F",
-      "pedidoFecha": "14/09/2026",
-      "cliente": "Daniel Chavez Fernandez",
-      "dni": "70274593",
-      "celular": "937 593 893",
-      "tematica": "Plim Plim Circo Niño",
-      "destinoCiudad": "Trujillo (El Milagro)",
-      "destinoLinea": "Agencia: **Shalom** — ref. a 2 cuadras de la Plaza de Armas El Milagro",
+      "destinoLinea": "🛵 Motorizado — Av. Bertoloto 111",
       "enviarFecha": "Enviar: **Miércoles 16/09/2026**",
-      "estadoPago": "PAGO PARCIAL",
-      "nota": "queda un saldo pendiente por cancelar. Regalo: vela paleta temática. Traer con cuidado, es regalo.",
+      "estadoPago": "PAGADO",
+      "nota": "pedido pagado en su totalidad.",
       "productos": [
-        { "nombre": "Bolsas herméticas", "cantidad": "1 ciento" },
-        { "nombre": "Caja de torta", "cantidad": "1 ciento" },
-        { "nombre": "Bolsas dulceras", "cantidad": "1 ciento" },
-        { "nombre": "Globos pencil", "cantidad": "1 ciento" },
-        { "nombre": "Relleno XL", "cantidad": "3" },
-        { "nombre": "Spray de nieve", "cantidad": "3" },
-        { "nombre": "Inflador manual", "cantidad": "1" }
+        { "nombre": "Promociones", "cantidad": "30" },
+        { "nombre": "Cajas sorpresas", "cantidad": "30" },
+        { "nombre": "Cajas de torta", "cantidad": "30" },
+        { "nombre": "Cajas de cancha", "cantidad": "30" },
+        { "nombre": "Cajas de caramelo", "cantidad": "30" },
+        { "nombre": "Cajas pirámide", "cantidad": "30" },
+        { "nombre": "Arco de globos", "cantidad": "1" },
+        { "nombre": "Número metálico 60cm #8 color", "cantidad": "1" },
+        { "nombre": "Mantel temático", "cantidad": "1" },
+        { "nombre": "Maso temático", "cantidad": "1" },
+        { "nombre": "Hilo pescar x100m", "cantidad": "1" },
+        { "nombre": "Piñata armable", "cantidad": "1" }
       ]
     }
   ]
