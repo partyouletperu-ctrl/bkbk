@@ -35,8 +35,8 @@ function fila(prod) {
         </tr>`;
 }
 
-// Tabla en una sola columna hasta 8 productos; más de eso, en dos columnas
-// para que la lista siempre entre en una sola hoja.
+// Tabla en una sola columna hasta 8 productos; entre 9 y 16 en dos columnas;
+// más de 16 en tres columnas, para que la lista siempre entre en una sola hoja.
 function tablaProductos(productos) {
   const lista = productos || [];
   if (lista.length <= 8) {
@@ -45,14 +45,17 @@ function tablaProductos(productos) {
         <tbody>${lista.map(fila).join('')}</tbody>
       </table>`;
   }
-  const mitad = Math.ceil(lista.length / 2);
-  const col1 = lista.slice(0, mitad);
-  const col2 = lista.slice(mitad);
+  const numCols = lista.length > 16 ? 3 : 2;
+  const porCol = Math.ceil(lista.length / numCols);
   const columna = (items) => `<table class="prod compact">
         <thead><tr><th></th><th>Producto</th><th class="cant">Cant.</th></tr></thead>
         <tbody>${items.map(fila).join('')}</tbody>
       </table>`;
-  return `<div class="prod-cols">${columna(col1)}${columna(col2)}</div>`;
+  let cols = '';
+  for (let i = 0; i < numCols; i++) {
+    cols += columna(lista.slice(i * porCol, (i + 1) * porCol));
+  }
+  return `<div class="prod-cols cols-${numCols}">${cols}</div>`;
 }
 
 function pageDetallado(p) {
