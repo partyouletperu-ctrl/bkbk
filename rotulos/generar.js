@@ -74,13 +74,13 @@ function pageDetallado(p) {
         <div class="det-rule"></div>
         <div class="det-cliente">${esc(p.cliente)}</div>
         <div class="det-fields">
-          <div class="field">
+          <div class="field field-dni">
             <span class="label">${esc(p.dniLabel || 'DNI')}</span>
-            <div class="val ${p.dni ? 'purple' : 'dark'}">${p.dni ? esc(p.dni) : 'No especificado'}</div>
+            <div class="val val-dni ${p.dni ? 'purple' : 'dark'}">${p.dni ? esc(p.dni) : 'No especificado'}</div>
           </div>
           <div class="field">
             <span class="label">Celular</span>
-            <div class="val dark">${p.celular ? esc(p.celular) : 'No especificado'}</div>
+            <div class="val val-cel dark">${p.celular ? esc(p.celular) : 'No especificado'}</div>
           </div>
         </div>
         ${p.tematica ? `<div class="det-tematica">Temática: <b>${esc(p.tematica)}</b></div>` : ''}
