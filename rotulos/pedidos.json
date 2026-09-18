@@ -1,33 +1,24 @@
 {
-  "_nota": "Cotización formal para enviar al cliente José Querevalu Florian (Pack Esencial, envío a Máncora por Shalom).",
-  "fecha": "18Sep-cotizacion2",
+  "_nota": "Cotización formal para enviar a la clienta Leydi Linares (50 promociones, recojo en tienda).",
+  "fecha": "18Sep-Leydi",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "cotizacion",
-      "codigo": "8B9D",
+      "codigo": "HY8D",
       "fecha": "18/09/2026",
-      "cliente": "José Querevalu Florian",
-      "dni": "76513604",
-      "telefono": "971 970 129",
-      "envio": "Agencia Shalom",
-      "destino": "Destino: **Máncora**",
-      "tematica": "Barcelona",
+      "cliente": "Leydi Linares",
+      "envio": "Recojo en tienda",
+      "destino": "Jr. Paruro 262",
       "items": [
         {
-          "nombre": "Pack Esencial (30 invitados)",
-          "detalle": "Incluye: 30 cajas sorpresas, 30 cajas de torta, 30 cajas de cancha, 30 cajas pirámides, 30 cajas carameleras, 30 vasos temáticos Barcelona y 30 cucharas de color.",
-          "cantidad": "1",
-          "precio": "S/ 80.00"
-        },
-        {
-          "nombre": "Paleta de personaje (regalo)",
-          "detalle": "Diseño temático Barcelona",
-          "cantidad": "1",
-          "precio": "Gratis"
+          "nombre": "Promociones (50 unidades)",
+          "detalle": "S/ 2.00 c/u — incluye: 50 cajas sorpresas, 50 cajas de torta, 50 carameleros, 50 pirámides y 50 vasos de colores.",
+          "cantidad": "50",
+          "precio": "S/ 100.00"
         }
       ],
-      "total": "S/ 80.00",
+      "total": "S/ 100.00",
       "nota": "Cotización válida por 3 días. Para confirmar el pedido, responder este mensaje."
     }
   ]
