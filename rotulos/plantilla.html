@@ -173,6 +173,53 @@
   .warning-box{position:absolute;left:13mm;right:13mm;bottom:9mm;border:1.5px dashed var(--amber-line);
     background:var(--amber-bg);border-radius:10px;padding:3mm 5mm;font-size:10px;color:var(--amber-text);z-index:3;}
 
+  /* ============ TEMPLATE: cotización (documento formal para el cliente) ============ */
+  .page-cot{padding:16mm 18mm;}
+  .cot-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6mm;}
+  .cot-header .logo img{height:20mm;display:block;}
+  .cot-header .meta{text-align:right;}
+  .cot-header .meta .titulo{font-family:'Baloo 2',sans-serif;font-weight:800;font-size:22px;color:var(--navy);letter-spacing:.5px;}
+  .cot-header .meta .num{font-size:11px;color:#8a94a3;margin-top:1mm;}
+  .cot-header .meta .fecha{font-size:11px;color:#8a94a3;}
+
+  .cot-rule{height:2px;background:linear-gradient(90deg,#43b34c,#e94ea0,#9a3fd6,#2f8fe0,#f0b93a);
+    border-radius:2px;margin-bottom:8mm;}
+
+  .cot-info{display:flex;gap:10mm;margin-bottom:8mm;}
+  .cot-info .box{flex:1;background:#f8f9fb;border:1px solid var(--line);border-radius:12px;padding:5mm 6mm;}
+  .cot-info .box .label{margin-bottom:2mm;display:block;}
+  .cot-info .box .principal{font-family:'Baloo 2',sans-serif;font-weight:800;font-size:19px;color:var(--ink);line-height:1.15;margin-bottom:2mm;}
+  .cot-info .box .linea{font-size:12px;color:#4a5260;line-height:1.6;}
+  .cot-info .box .linea b{color:var(--navy);}
+
+  .cot-tematica{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:15px;color:var(--purple-dark);
+    margin-bottom:5mm;}
+  .cot-tematica span{color:#8a94a3;font-family:'Inter',sans-serif;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:1px;}
+
+  table.cot-items{width:100%;border-collapse:collapse;margin-bottom:6mm;}
+  table.cot-items thead th{text-align:left;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#98a2af;
+    font-weight:700;padding:0 0 3mm 0;border-bottom:2px solid var(--ink);}
+  table.cot-items thead th.num{text-align:right;}
+  table.cot-items tbody td{padding:4mm 0;border-bottom:1px solid var(--line);font-size:13px;vertical-align:top;}
+  table.cot-items tbody td.cant{text-align:right;width:20mm;font-family:'Baloo 2',sans-serif;font-weight:700;}
+  table.cot-items tbody td.precio{text-align:right;width:28mm;font-family:'Baloo 2',sans-serif;font-weight:700;color:var(--navy);}
+  table.cot-items tbody .nombre b{font-weight:700;}
+  table.cot-items tbody .detalle{display:block;font-size:10.5px;color:#6b7280;margin-top:1mm;}
+
+  .cot-total-row{display:flex;justify-content:flex-end;margin-bottom:8mm;}
+  .cot-total{display:flex;align-items:center;gap:6mm;background:var(--blue-bg);border:1px solid var(--blue-bg-line);
+    border-radius:12px;padding:4mm 8mm;}
+  .cot-total .lbl{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:14px;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;}
+  .cot-total .val{font-family:'Baloo 2',sans-serif;font-weight:800;font-size:26px;color:var(--purple-dark);}
+
+  .cot-nota{background:var(--purple-bg);border:1px solid var(--purple-bg-line);border-radius:12px;
+    padding:4mm 6mm;font-size:12px;color:#4a5260;margin-bottom:6mm;line-height:1.6;}
+  .cot-nota b{color:var(--ink);}
+
+  .cot-footer{border-top:1px solid var(--line);padding-top:5mm;text-align:center;}
+  .cot-footer .brand{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:13px;color:var(--purple-dark);margin-bottom:1.5mm;}
+  .cot-footer .sub{font-size:10px;color:#98a2af;}
+
   /* ============ print ============ */
   @page{size:210mm 297mm;margin:0;}
 </style>

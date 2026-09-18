@@ -1,101 +1,22 @@
 {
-  "_nota": "4 pedidos del lote de hoy (18/09).",
-  "fecha": "18Sep",
+  "_nota": "Cotización formal para enviar a la clienta Katherine Ysmelda Julca Miguel.",
+  "fecha": "18Sep-cotizacion",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
-      "tipo": "detallado",
-      "codigo": "5XW9",
-      "cliente": "Wily Salazar Gómez",
-      "dni": "43296164",
-      "dniLabel": "DNI / CE",
-      "celular": "904 824 664",
-      "tematica": "Hadas",
-      "destinoCiudad": "Tocache",
-      "destinoLinea": "Agencia: **Shalom Tocache** — Av. Fernando Belaúnde",
-      "enviarFecha": "Enviar: (fecha no indicada en el mensaje)",
-      "estadoPago": "PAGADO",
-      "nota": "pedido pagado en su totalidad.",
-      "warning": "No se indicó la fecha de envío — confirmar con el cliente.",
-      "productos": [
-        { "nombre": "Promociones", "cantidad": "40" },
-        { "nombre": "Cajas sorpresas", "cantidad": "40" },
-        { "nombre": "Cajas de torta", "cantidad": "40" },
-        { "nombre": "Cajas de pop corn", "cantidad": "40" },
-        { "nombre": "Cajas pirámide", "cantidad": "40" },
-        { "nombre": "Cajas carameleras", "cantidad": "40" },
-        { "nombre": "Cucharas americana", "cantidad": "50" },
-        { "nombre": "Vasos 7oz", "cantidad": "50" },
-        { "nombre": "Bolsas dulcera", "cantidad": "40" },
-        { "nombre": "Fuentes bocaditos", "cantidad": "1 paq (8 und)" }
-      ]
-    },
-    {
-      "tipo": "detallado",
-      "codigo": "TWW4",
-      "pedidoFecha": "16/09/2026",
-      "cliente": "Josselyn Evelyn Barrientos Miranda",
-      "dni": "72260567",
-      "celular": "933 158 891",
-      "tematica": "Kuromi",
-      "destinoCiudad": "Cercado de Lima",
-      "destinoLinea": "🚗 InDrive — Av. Materiales 2143 (al costado del puesto de salud Palermo)",
-      "enviarFecha": "Enviar: **Viernes 18/09/2026**",
-      "estadoPago": "PAGADO",
-      "nota": "pedido pagado en su totalidad.",
-      "productos": [
-        { "nombre": "Cajas sorpresa", "cantidad": "30" },
-        { "nombre": "Caja de torta", "cantidad": "30" },
-        { "nombre": "Vela paleta", "cantidad": "1" },
-        { "nombre": "Arco de globos", "cantidad": "1" },
-        { "nombre": "Maso ban ban", "cantidad": "1" },
-        { "nombre": "Piñata armable", "cantidad": "1" },
-        { "nombre": "Tópers de torta", "cantidad": "1" }
-      ]
-    },
-    {
-      "tipo": "detallado",
-      "codigo": "KPC4",
-      "pedidoFecha": "16/09/2026",
-      "cliente": "Aricel Rivera Peña",
-      "dni": "44092090",
-      "celular": "929 503 176",
-      "tematica": "K Pop Animado",
-      "destinoCiudad": "Aguaytía, Padre Abad - Ucayali",
-      "destinoLinea": "Agencia: **Shalom**",
-      "enviarFecha": "Enviar: **Viernes 18/09/2026**",
-      "estadoPago": "PAGO PARCIAL",
-      "nota": "queda un saldo pendiente por cancelar.",
-      "productos": [
-        { "nombre": "Pack Clásico (30 invitados)", "cantidad": "30" },
-        { "nombre": "Relleno M", "cantidad": "2" },
-        { "nombre": "Relleno XL", "cantidad": "1" },
-        { "nombre": "Tarjeta de invitación", "cantidad": "30" },
-        { "nombre": "Matraca", "cantidad": "3 doc" },
-        { "nombre": "Silbatos", "cantidad": "50" },
-        { "nombre": "Pírex gelatinero", "cantidad": "1 ciento" },
-        { "nombre": "Paq. vinchas de niña", "cantidad": "3" },
-        { "nombre": "Bolsas dulceras", "cantidad": "30" }
-      ]
-    },
-    {
-      "tipo": "detallado",
-      "codigo": "D8FV",
-      "cliente": "Maricielo Rubí Ipanaque Zapata",
-      "dni": "76963829",
-      "dniLabel": "DNI / CE",
-      "celular": "988 711 576",
-      "tematica": "Frutas Bailarinas",
-      "destinoCiudad": "Motorizado (Lima)",
-      "destinoLinea": "🛵 Motorizado — Jr. Víctor Navarro del Aguila 242",
-      "enviarFecha": "Enviar: **Viernes 18/09/2026**",
-      "estadoPago": "PAGO PARCIAL",
-      "nota": "queda un saldo pendiente por cancelar.",
-      "productos": [
-        { "nombre": "Cajas sorpresa", "cantidad": "20" },
-        { "nombre": "Cajas de cancha", "cantidad": "30" },
-        { "nombre": "Cajas de torta", "cantidad": "30" }
-      ]
+      "tipo": "cotizacion",
+      "codigo": "NURB",
+      "fecha": "18/09/2026",
+      "cliente": "Katherine Ysmelda Julca Miguel",
+      "telefono": "+51 985 610 183",
+      "envio": "InDrive",
+      "tematica": "Granja de Zenón Niño",
+      "items": [
+        { "nombre": "Cajas sorpresa", "cantidad": "20", "precio": "S/ 16.00" },
+        { "nombre": "Globos personalizados (1 ciento)", "detalle": "Temática, foto, nombre y año — colores: rojo, azul, verde, amarillo y marrón", "cantidad": "1 ciento", "precio": "S/ 50.00" }
+      ],
+      "total": "S/ 66.00",
+      "nota": "Cotización válida por 3 días. Para confirmar el pedido, responder este mensaje."
     }
   ]
 }

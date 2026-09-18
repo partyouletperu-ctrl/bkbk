@@ -163,7 +163,66 @@ function pageSimple(p) {
   </div>`;
 }
 
-const paginas = data.pedidos.map(p => p.tipo === 'detallado' ? pageDetallado(p) : pageSimple(p)).join('\n');
+function pageCotizacion(p) {
+  const filas = (p.items || []).map(item => `
+        <tr>
+          <td class="nombre"><b>${esc(item.nombre)}</b>${item.detalle ? `<span class="detalle">${esc(item.detalle)}</span>` : ''}</td>
+          <td class="cant">${esc(item.cantidad)}</td>
+          <td class="precio">${esc(item.precio)}</td>
+        </tr>`).join('');
+
+  return `
+  <div class="page page-cot">
+    <div class="cot-header">
+      <div class="logo"><img src="../assets/party-outlet-logo.png" alt="Party Outlet Perú"></div>
+      <div class="meta">
+        <div class="titulo">Cotización</div>
+        ${p.codigo ? `<div class="num">N.° ${esc(p.codigo)}</div>` : ''}
+        ${p.fecha ? `<div class="fecha">${esc(p.fecha)}</div>` : ''}
+      </div>
+    </div>
+    <div class="cot-rule"></div>
+
+    <div class="cot-info">
+      <div class="box">
+        <span class="label">Cliente</span>
+        <div class="principal">${esc(p.cliente)}</div>
+        ${p.telefono ? `<div class="linea">Teléfono: <b>${esc(p.telefono)}</b></div>` : ''}
+      </div>
+      <div class="box">
+        <span class="label">Entrega</span>
+        <div class="principal">${esc(p.envio || 'A coordinar')}</div>
+        ${p.destino ? `<div class="linea">${rich(p.destino)}</div>` : ''}
+      </div>
+    </div>
+
+    ${p.tematica ? `<div class="cot-tematica"><span>Temática</span><br>${esc(p.tematica)}</div>` : ''}
+
+    <table class="cot-items">
+      <thead><tr><th>Producto</th><th class="num">Cant.</th><th class="num">Precio</th></tr></thead>
+      <tbody>${filas}</tbody>
+    </table>
+
+    <div class="cot-total-row">
+      <div class="cot-total"><span class="lbl">Total</span><span class="val">${esc(p.total)}</span></div>
+    </div>
+
+    ${p.nota ? `<div class="cot-nota">${rich(p.nota)}</div>` : ''}
+
+    <div class="cot-footer">
+      <div class="brand">Party Outlet Perú</div>
+      <div class="sub">Productos originales · Envíos a todo el Perú · WhatsApp ${esc(data.whatsapp || '944 751 287')}</div>
+    </div>
+  </div>`;
+}
+
+function pagina(p) {
+  if (p.tipo === 'detallado') return pageDetallado(p);
+  if (p.tipo === 'cotizacion') return pageCotizacion(p);
+  return pageSimple(p);
+}
+
+const paginas = data.pedidos.map(pagina).join('\n');
 
 const plantilla = fs.readFileSync(path.join(DIR, 'plantilla.html'), 'utf8');
 const html = plantilla.replace('<!--PAGES-->', paginas);
