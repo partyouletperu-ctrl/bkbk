@@ -187,6 +187,7 @@ function pageCotizacion(p) {
       <div class="box">
         <span class="label">Cliente</span>
         <div class="principal">${esc(p.cliente)}</div>
+        ${p.dni ? `<div class="linea">${esc(p.dniLabel || 'DNI')}: <b>${esc(p.dni)}</b></div>` : ''}
         ${p.telefono ? `<div class="linea">Teléfono: <b>${esc(p.telefono)}</b></div>` : ''}
       </div>
       <div class="box">

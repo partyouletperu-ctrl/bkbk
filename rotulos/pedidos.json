@@ -1,21 +1,32 @@
 {
-  "_nota": "Cotización formal para enviar a la clienta Katherine Ysmelda Julca Miguel.",
-  "fecha": "18Sep-cotizacion",
+  "_nota": "Cotización formal para enviar al cliente José Querevalu Florian (Pack Esencial, envío a Máncora por Shalom).",
+  "fecha": "18Sep-cotizacion2",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "cotizacion",
-      "codigo": "NURB",
+      "codigo": "8B9D",
       "fecha": "18/09/2026",
-      "cliente": "Katherine Ysmelda Julca Miguel",
-      "telefono": "+51 985 610 183",
-      "envio": "InDrive",
-      "tematica": "Granja de Zenón Niño",
+      "cliente": "José Querevalu Florian",
+      "dni": "76513604",
+      "telefono": "971 970 129",
+      "envio": "Agencia Shalom",
+      "destino": "Destino: **Máncora**",
       "items": [
-        { "nombre": "Cajas sorpresa", "cantidad": "20", "precio": "S/ 16.00" },
-        { "nombre": "Globos personalizados (1 ciento)", "detalle": "Temática, foto, nombre y año — colores: rojo, azul, verde, amarillo y marrón", "cantidad": "1 ciento", "precio": "S/ 50.00" }
+        {
+          "nombre": "Pack Esencial (30 invitados)",
+          "detalle": "Incluye: 30 cajas sorpresas, 30 cajas de torta, 30 cajas de cancha, 30 cajas pirámides, 30 cajas carameleras, 30 vasos de personaje y 30 cucharas de color.",
+          "cantidad": "1",
+          "precio": "S/ 80.00"
+        },
+        {
+          "nombre": "Paleta de personaje (regalo)",
+          "detalle": "La Abejita — vela de cumpleaños",
+          "cantidad": "1",
+          "precio": "Gratis"
+        }
       ],
-      "total": "S/ 66.00",
+      "total": "S/ 80.00",
       "nota": "Cotización válida por 3 días. Para confirmar el pedido, responder este mensaje."
     }
   ]
