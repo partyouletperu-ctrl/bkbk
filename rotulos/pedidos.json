@@ -1,15 +1,22 @@
 {
-  "_nota": "Confirmación de pedido (sin precios) para enviar al cliente Luis — su pedido ya fue derivado al almacén para preparación.",
-  "fecha": "20Sep-Luis",
+  "_nota": "Rótulo interno de Luis (K Pop Clásica) para derivar a almacén. Recoge un tercero: Yuli Lourdes Suarez Tarazona.",
+  "fecha": "20Sep-Luis-rotulo",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
-      "tipo": "confirmacion",
-      "codigo": "26V8",
-      "fecha": "20/09/2026",
+      "tipo": "detallado",
+      "codigo": "GNPD",
       "cliente": "Luis",
+      "dni": "47141949",
+      "dniLabel": "DNI de quien recoge",
+      "celular": "933 863 894",
       "tematica": "K Pop Clásica",
-      "items": [
+      "destinoCiudad": "Huánuco",
+      "destinoLinea": "Agencia: **Shalom Jr. Aguilar**",
+      "enviarFecha": "Enviar: (fecha no indicada en el mensaje)",
+      "estadoPago": "PAGO VERIFICADO (S/100 por Yape)",
+      "nota": "Recoge: Yuli Lourdes Suarez Tarazona, DNI 47141949 (verificado con foto de DNI). Pedido derivado al almacén para alistamiento.",
+      "productos": [
         { "nombre": "Promociones", "cantidad": "40" },
         { "nombre": "Cajas sorpresas", "cantidad": "40" },
         { "nombre": "Cajas de torta", "cantidad": "40" },
@@ -43,8 +50,7 @@
         { "nombre": "Brillantador de globos", "cantidad": "1" },
         { "nombre": "Número metálico", "cantidad": "1" },
         { "nombre": "Piñata estrella", "cantidad": "1" }
-      ],
-      "nota": "Tu pedido ya se encuentra en preparación en nuestro almacén. Cualquier consulta, escríbenos por WhatsApp."
+      ]
     }
   ]
 }
