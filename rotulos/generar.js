@@ -217,9 +217,51 @@ function pageCotizacion(p) {
   </div>`;
 }
 
+function pageConfirmacion(p) {
+  const items = (p.items || []).map(item => `
+        <div class="confirm-item">
+          <span class="nombre">${esc(item.nombre)}${item.detalle ? ` <span style="color:#98a2af">(${esc(item.detalle)})</span>` : ''}</span>
+          <span class="cant">${esc(item.cantidad)}</span>
+        </div>`).join('');
+
+  return `
+  <div class="page page-cot">
+    <div class="cot-header">
+      <div class="logo"><img src="../assets/party-outlet-logo.png" alt="Party Outlet Perú"></div>
+      <div class="meta">
+        <div class="titulo">Confirmación de Pedido</div>
+        ${p.codigo ? `<div class="num">N.° ${esc(p.codigo)}</div>` : ''}
+        ${p.fecha ? `<div class="fecha">${esc(p.fecha)}</div>` : ''}
+      </div>
+    </div>
+    <div class="cot-rule"></div>
+
+    <div class="cot-info">
+      <div class="box">
+        <span class="label">Cliente</span>
+        <div class="principal">${esc(p.cliente)}</div>
+        <span class="cot-status">✅ Pedido derivado al almacén</span>
+      </div>
+    </div>
+
+    ${p.tematica ? `<div class="cot-tematica"><span>Temática</span><br>${esc(p.tematica)}</div>` : ''}
+
+    <div class="cot-section-titulo">Productos de tu pedido</div>
+    <div class="confirm-list">${items}</div>
+
+    ${p.nota ? `<div class="cot-nota">${rich(p.nota)}</div>` : ''}
+
+    <div class="cot-footer">
+      <div class="brand">Party Outlet Perú</div>
+      <div class="sub">Productos originales · Envíos a todo el Perú · WhatsApp ${esc(data.whatsapp || '944 751 287')}</div>
+    </div>
+  </div>`;
+}
+
 function pagina(p) {
   if (p.tipo === 'detallado') return pageDetallado(p);
   if (p.tipo === 'cotizacion') return pageCotizacion(p);
+  if (p.tipo === 'confirmacion') return pageConfirmacion(p);
   return pageSimple(p);
 }
 
