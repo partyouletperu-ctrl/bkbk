@@ -72,6 +72,64 @@
       "chipTexto": "Motorizado",
       "direccion": "Comisaría Villa Los Reyes",
       "notaFecha": "Enviar: **Martes 22/09/2026**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "79DS",
+      "cliente": "Katherin Orosco Caceres",
+      "celular": "973 293 712",
+      "dni": "70476696",
+      "tematica": "Stranger Things",
+      "modalidad": "envio",
+      "destinoHeading": "Cusco",
+      "chipIcon": "🏬",
+      "chipTexto": "Shalom Av. Evitamiento",
+      "direccion": "s/n UPS Chacahuayco, San Sebastián — ref. Vía Evitamiento, paradero Horacio",
+      "notaFecha": "Enviar: **Martes 22/09/2026**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "LSPG",
+      "cliente": "Yuliana Paucarpura Castellares",
+      "celular": "987 165 773",
+      "dni": null,
+      "tematica": "Bely y Beto",
+      "modalidad": "recojo",
+      "destinoHeading": "Recojo en tienda",
+      "chipIcon": "📦",
+      "chipTexto": "Jr. Paruro 262",
+      "direccion": null,
+      "notaFecha": "Recojo: **Martes 22/09/2026, a partir de las 4pm**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "9BHV",
+      "cliente": "Janet Liliana Espinoza Pasquel",
+      "celular": "962 964 066",
+      "dni": "46647327",
+      "dniLabel": "DNI / CE",
+      "tematica": "Michael Jackson",
+      "modalidad": "envio",
+      "destinoHeading": "Cerro de Pasco (Chaupimarca)",
+      "chipIcon": "🏬",
+      "chipTexto": "Shalom",
+      "direccion": null,
+      "notaFecha": "Enviar: (fecha no indicada en el mensaje)",
+      "warning": "No se indicó la fecha de envío en este mensaje — confirmar con la clienta."
+    },
+    {
+      "tipo": "simple",
+      "codigo": "XEUD",
+      "cliente": "Dianery Rubi Huamani Paucca",
+      "celular": "918 316 493",
+      "dni": "74073645",
+      "tematica": "Conejito",
+      "modalidad": "envio",
+      "destinoHeading": "Puquio",
+      "chipIcon": "🚌",
+      "chipTexto": "Vía Sac",
+      "direccion": null,
+      "notaFecha": "Enviar: **Martes 22/09/2026**"
     }
   ]
 }
