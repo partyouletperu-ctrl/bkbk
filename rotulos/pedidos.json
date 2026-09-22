@@ -30,6 +30,48 @@
       "chipTexto": "Shalom Av. Evitamiento",
       "direccion": "s/n UPS Chacahuayco, San Sebastián — ref. Vía Evitamiento, paradero Horacio Terrestre",
       "notaFecha": "Enviar: **Martes 22/09/2026**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "XCTC",
+      "cliente": "Cinsia Fernanda Leal Luis",
+      "celular": "916 031 994",
+      "dni": "76194491",
+      "tematica": "Plim Plim",
+      "modalidad": "envio",
+      "destinoHeading": "Cajabamba",
+      "chipIcon": "🏬",
+      "chipTexto": "Shalom",
+      "direccion": null,
+      "notaFecha": "Enviar: **Martes 22/09/2026**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "SDTM",
+      "cliente": "Daisy Trejo Salvador",
+      "celular": "973 891 489",
+      "dni": "43526569",
+      "tematica": "K Pop Clásica",
+      "modalidad": "envio",
+      "destinoHeading": "Huaraz, Áncash",
+      "chipIcon": "🏬",
+      "chipTexto": "Shalom",
+      "direccion": null,
+      "notaFecha": "Enviar: **Martes 22/09/2026**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "7ZJS",
+      "cliente": "José Tadeo Gutiérrez",
+      "celular": "900 554 635",
+      "dni": null,
+      "tematica": "Zootopia Niña",
+      "modalidad": "envio",
+      "destinoHeading": "Ventanilla",
+      "chipIcon": "🛵",
+      "chipTexto": "Motorizado",
+      "direccion": "Comisaría Villa Los Reyes",
+      "notaFecha": "Enviar: **Martes 22/09/2026**"
     }
   ]
 }
