@@ -16,6 +16,20 @@
       "chipTexto": "Shalom",
       "direccion": null,
       "notaFecha": "Enviar: **Martes 22/09/2026**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "BND6",
+      "cliente": "Claret Ccoya Apaza",
+      "celular": "997 435 321",
+      "dni": "73985992",
+      "tematica": "Pollitos Cánticos",
+      "modalidad": "envio",
+      "destinoHeading": "Cusco",
+      "chipIcon": "🏬",
+      "chipTexto": "Shalom Av. Evitamiento",
+      "direccion": "s/n UPS Chacahuayco, San Sebastián — ref. Vía Evitamiento, paradero Horacio Terrestre",
+      "notaFecha": "Enviar: **Martes 22/09/2026**"
     }
   ]
 }
