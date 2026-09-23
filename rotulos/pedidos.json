@@ -31,6 +31,21 @@
       "chipTexto": "Shalom Puente Lurín",
       "direccion": null,
       "notaFecha": "Enviar: **Miércoles 23/09/2026**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "XHTJ",
+      "cliente": "Esdaly Briceño",
+      "celular": "931 090 561",
+      "dni": "008842916",
+      "dniLabel": "C.E.",
+      "tematica": "Plim Plim Circo",
+      "modalidad": "envio",
+      "destinoHeading": "Arequipa",
+      "chipIcon": "🏬",
+      "chipTexto": "Shalom Calle Belén 102",
+      "direccion": null,
+      "notaFecha": "Enviar: **Miércoles 23/09/2026**"
     }
   ]
 }
