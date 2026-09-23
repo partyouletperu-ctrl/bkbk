@@ -1,51 +1,21 @@
 {
-  "_nota": "Rótulos del día 23/09/2026. Solo rótulo de envío (cliente, DNI, celular, destino, agencia/modalidad) — se van sumando pedidos a lo largo del día.",
-  "fecha": "23Sep",
+  "_nota": "Rótulo único de Teresa Álvarez (Katseye), recojo en tienda.",
+  "fecha": "23Sep-Teresa",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "simple",
-      "codigo": "2JLD",
-      "cliente": "Albani Fernandez",
-      "celular": "917 342 241",
+      "codigo": "A9HH",
+      "cliente": "Teresa Álvarez",
+      "celular": "945 052 050",
       "dni": null,
-      "tematica": "Daniel Tigre",
+      "tematica": "Katseye",
       "modalidad": "recojo",
       "destinoHeading": "Recojo en tienda",
       "chipIcon": "📦",
       "chipTexto": "Jr. Paruro 262",
       "direccion": null,
-      "notaFecha": "Recojo: **Hoy, miércoles 23/09/2026, a partir de las 4pm**"
-    },
-    {
-      "tipo": "simple",
-      "codigo": "5Y5K",
-      "cliente": "Yoemi Nuñez Salcedo",
-      "celular": "940 600 984",
-      "dni": "74806315",
-      "dniLabel": "DNI / CE",
-      "tematica": "Frutas Bailarinas",
-      "modalidad": "envio",
-      "destinoHeading": "Lurín",
-      "chipIcon": "🏬",
-      "chipTexto": "Shalom Puente Lurín",
-      "direccion": null,
-      "notaFecha": "Enviar: **Miércoles 23/09/2026**"
-    },
-    {
-      "tipo": "simple",
-      "codigo": "XHTJ",
-      "cliente": "Esdaly Briceño",
-      "celular": "931 090 561",
-      "dni": "008842916",
-      "dniLabel": "C.E.",
-      "tematica": "Plim Plim Circo",
-      "modalidad": "envio",
-      "destinoHeading": "Arequipa",
-      "chipIcon": "🏬",
-      "chipTexto": "Shalom Calle Belén 102",
-      "direccion": null,
-      "notaFecha": "Enviar: **Miércoles 23/09/2026**"
+      "notaFecha": "Recojo: **Sábado 26/09/2026, a partir de las 12 del mediodía**"
     }
   ]
 }
