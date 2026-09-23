@@ -16,6 +16,21 @@
       "chipTexto": "Jr. Paruro 262",
       "direccion": null,
       "notaFecha": "Recojo: **Hoy, miércoles 23/09/2026, a partir de las 4pm**"
+    },
+    {
+      "tipo": "simple",
+      "codigo": "5Y5K",
+      "cliente": "Yoemi Nuñez Salcedo",
+      "celular": "940 600 984",
+      "dni": "74806315",
+      "dniLabel": "DNI / CE",
+      "tematica": "Frutas Bailarinas",
+      "modalidad": "envio",
+      "destinoHeading": "Lurín",
+      "chipIcon": "🏬",
+      "chipTexto": "Shalom Puente Lurín",
+      "direccion": null,
+      "notaFecha": "Enviar: **Miércoles 23/09/2026**"
     }
   ]
 }
