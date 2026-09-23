@@ -58,52 +58,65 @@ function tablaProductos(productos) {
   return `<div class="prod-cols cols-${numCols}">${cols}</div>`;
 }
 
+// Extrae el texto en **negrita** de una línea tipo "Agencia: **Shalom X**".
+function extraeChip(linea) {
+  if (!linea) return null;
+  const m = linea.match(/\*\*(.+?)\*\*/);
+  return m ? m[1] : null;
+}
+
+// Pedido con productos → 2 hojas separadas: (1) rótulo de envío a toda hoja,
+// (2) lista de alistamiento a toda hoja (sin precios), para imprimir y cortar por separado.
 function pageDetallado(p) {
-  return `
-  <div class="page page-detallado">
-    <div class="card">
-      <div class="card-inner">
-        <div class="det-top">
-          <div class="det-logo"><img src="../assets/party-outlet-logo.png" alt="Party Outlet Perú"></div>
-          <div class="det-code">
-            <span class="label">Código temporal</span>
-            <div class="code-val">${esc(p.codigo)}</div>
-            ${p.pedidoFecha ? `<div class="pedido-fecha">Pedido: ${esc(p.pedidoFecha)}</div>` : ''}
-          </div>
-        </div>
-        <div class="det-rule"></div>
-        <div class="det-cliente">${esc(p.cliente)}</div>
-        <div class="det-fields">
-          <div class="field field-dni">
-            <span class="label">${esc(p.dniLabel || 'DNI')}</span>
-            <div class="val val-dni ${p.dni ? 'purple' : 'dark'}">${p.dni ? esc(p.dni) : 'No especificado'}</div>
-          </div>
-          <div class="field">
-            <span class="label">Celular</span>
-            <div class="val val-cel dark">${p.celular ? esc(p.celular) : 'No especificado'}</div>
-          </div>
-        </div>
-        ${p.tematica ? `<div class="det-tematica">Temática: <b>${esc(p.tematica)}</b></div>` : ''}
-        <div class="det-destino">
-          <span class="label">Destino</span>
-          <div class="ciudad">${esc(p.destinoCiudad)}</div>
-          ${p.destinoLinea ? `<div class="linea">${rich(p.destinoLinea)}</div>` : ''}
-          <div class="enviar">${rich(p.enviarFecha)}</div>
-        </div>
+  const rotulo = pageSimple({
+    codigo: p.codigo,
+    cliente: p.cliente,
+    celular: p.celular,
+    dni: p.dni,
+    dniLabel: p.dniLabel,
+    tematica: p.tematica,
+    modalidad: 'envio',
+    destinoHeading: p.destinoCiudad,
+    chipIcon: '🏬',
+    chipTexto: extraeChip(p.destinoLinea),
+    direccion: null,
+    notaFecha: p.enviarFecha,
+  });
+
+  return rotulo + `
+  <div class="page page-cot">
+    <div class="cot-header">
+      <div class="logo"><img src="../assets/party-outlet-logo.png" alt="Party Outlet Perú"></div>
+      <div class="meta">
+        <div class="titulo">Lista de Alistamiento</div>
+        ${p.codigo ? `<div class="num">N.° ${esc(p.codigo)}</div>` : ''}
+        ${p.pedidoFecha ? `<div class="fecha">Pedido: ${esc(p.pedidoFecha)}</div>` : ''}
+      </div>
+    </div>
+    <div class="cot-rule"></div>
+
+    <div class="cot-info">
+      <div class="box">
+        <span class="label">Cliente</span>
+        <div class="principal">${esc(p.cliente)}</div>
+      </div>
+      <div class="box">
+        <span class="label">Estado de pago</span>
+        <div class="principal">${pillEstado(p.estadoPago)}</div>
       </div>
     </div>
 
-    <div class="cutline"><span>✂</span><span class="dash"></span><span>Cortar y pegar en la caja</span><span class="dash"></span></div>
+    ${p.tematica ? `<div class="cot-tematica"><span>Temática</span><br>${esc(p.tematica)}</div>` : ''}
 
-    <div class="alist">
-      <div class="alist-head">
-        <span class="titulo">Lista de alistamiento (uso interno)</span>
-        <span class="meta">${esc(p.codigo)}${p.tematica ? ' · ' + esc(p.tematica) : ''}</span>
-      </div>
-      <div class="estado-pago">Estado de pago: ${pillEstado(p.estadoPago)}</div>
-      ${tablaProductos(p.productos)}
-      ${p.nota ? `<div class="alist-nota"><b>Nota:</b> ${esc(p.nota)}</div>` : ''}
-      ${p.warning ? `<div class="det-warning">⚠ ${esc(p.warning)}</div>` : ''}
+    <div class="cot-section-titulo">Productos (uso interno — sin precios)</div>
+    ${tablaProductos(p.productos)}
+
+    ${p.nota ? `<div class="cot-nota"><b>Nota:</b> ${rich(p.nota)}</div>` : ''}
+    ${p.warning ? `<div class="det-warning">⚠ ${esc(p.warning)}</div>` : ''}
+
+    <div class="cot-footer">
+      <div class="brand">Party Outlet Perú</div>
+      <div class="sub">Productos originales · Envíos a todo el Perú · WhatsApp ${esc(data.whatsapp || '944 751 287')}</div>
     </div>
   </div>`;
 }
