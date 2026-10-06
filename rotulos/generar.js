@@ -66,9 +66,11 @@ function extraeChip(linea) {
 }
 
 // Pedido con productos → 2 hojas separadas: (1) rótulo de envío a toda hoja,
-// (2) lista de alistamiento a toda hoja (sin precios), para imprimir y cortar por separado.
-function pageDetallado(p) {
-  const rotulo = pageSimple({
+// (2) lista de alistamiento a toda hoja (sin precios). Se generan por separado
+// (no concatenadas) para poder agrupar todos los rótulos primero y todas las
+// listas después en el PDF final.
+function pageDetalladoRotulo(p) {
+  return pageSimple({
     codigo: p.codigo,
     cliente: p.cliente,
     celular: p.celular,
@@ -82,8 +84,10 @@ function pageDetallado(p) {
     direccion: p.direccion || null,
     notaFecha: p.enviarFecha,
   });
+}
 
-  return rotulo + `
+function pageDetalladoLista(p) {
+  return `
   <div class="page page-cot">
     <div class="cot-header">
       <div class="logo"><img src="../assets/party-outlet-logo.png" alt="Party Outlet Perú"></div>
@@ -272,13 +276,24 @@ function pageConfirmacion(p) {
 }
 
 function pagina(p) {
-  if (p.tipo === 'detallado') return pageDetallado(p);
   if (p.tipo === 'cotizacion') return pageCotizacion(p);
   if (p.tipo === 'confirmacion') return pageConfirmacion(p);
   return pageSimple(p);
 }
 
-const paginas = data.pedidos.map(pagina).join('\n');
+// Los pedidos "detallado" aportan una hoja a cada grupo (rótulos / listas);
+// el resto de tipos solo aporta una hoja al grupo de rótulos.
+const rotulos = [];
+const listas = [];
+data.pedidos.forEach(p => {
+  if (p.tipo === 'detallado') {
+    rotulos.push(pageDetalladoRotulo(p));
+    listas.push(pageDetalladoLista(p));
+  } else {
+    rotulos.push(pagina(p));
+  }
+});
+const paginas = rotulos.join('\n') + listas.join('\n');
 
 const plantilla = fs.readFileSync(path.join(DIR, 'plantilla.html'), 'utf8');
 const html = plantilla.replace('<!--PAGES-->', paginas);
