@@ -27,6 +27,7 @@
         { "nombre": "Mantel temático", "cantidad": 1 },
         { "nombre": "Paquete de cucharas", "cantidad": 1 },
         { "nombre": "Fuente de bocaditos", "cantidad": 1, "detalle": "paquete x8 unid." },
+        { "categoria": "Golosinas" },
         { "nombre": "Bolsa Mini Nicks", "cantidad": 1 },
         { "nombre": "Bolsa Mini cañonazos", "cantidad": 1 },
         { "nombre": "Bolsa Chocolate Sapitos", "cantidad": 1 },
@@ -34,6 +35,7 @@
         { "nombre": "Box pulp", "cantidad": 1, "detalle": "24 unid." },
         { "nombre": "Bolsa Mini rellenitas", "cantidad": 1 },
         { "nombre": "Bolsa Mini chocmans", "cantidad": 1 },
+        { "categoria": "Juguetes" },
         { "nombre": "Dinosaurio crece", "cantidad": 1 }
       ]
     }

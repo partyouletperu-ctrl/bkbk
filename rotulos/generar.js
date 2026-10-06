@@ -26,7 +26,15 @@ function pillEstado(estado) {
   return `<span class="pill ${cls}">${esc(estado)}${marca}</span>`;
 }
 
+// Una "categoría" (ej. "Golosinas", "Juguetes") es un encabezado dentro de la
+// lista para agrupar visualmente, no un producto: va sin checkbox ni cantidad.
 function fila(prod) {
+  if (prod.categoria) {
+    return `
+        <tr class="cat-row">
+          <td colspan="3" class="cat-label">${esc(prod.categoria)}</td>
+        </tr>`;
+  }
   return `
         <tr>
           <td class="chk"><span class="checkbox"></span></td>

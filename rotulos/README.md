@@ -35,7 +35,10 @@ Comunes: `tipo` (`"detallado"` | `"simple"`), `codigo`, `cliente`, `dni`
 `detallado`: `pedidoFecha`, `tematica`, `destinoCiudad`, `destinoLinea`
 (admite `**negrita**`), `enviarFecha`, `estadoPago` (`"PAGADO"` → pastilla
 verde; cualquier otro valor → pastilla ámbar), `nota`, `productos: [{nombre,
-cantidad, detalle}]`.
+cantidad, detalle}]`. Un ítem de `productos` puede ser en cambio
+`{categoria: "Golosinas"}` para insertar un encabezado de sección en la
+lista de alistamiento (sin checkbox ni cantidad) y así separar grupos como
+"Golosinas" o "Juguetes" de los productos reales.
 
 `simple`: `modalidad` (`"envio"` | `"recojo"`, cambia el título de la
 sección y el ícono), `destinoHeading`, `chipIcon`, `chipTexto` (agencia/
