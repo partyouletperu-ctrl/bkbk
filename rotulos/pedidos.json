@@ -1,31 +1,29 @@
 {
-  "_nota": "Pedido único de Kailith Amasifuen Salas (Súper Campeones), envío vía Shalom La Banda de Shilcayo.",
-  "fecha": "06Oct-Kailith",
+  "_nota": "Pedido único de Mileni Lizbeth Crispin Ramon (Plim Plim niña), envío vía Shalom Pichari - Cuzco.",
+  "fecha": "06Oct-Mileni",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "7LDM",
-      "cliente": "Kailith Amasifuen Salas",
-      "celular": "964136023",
-      "dni": "74865119",
-      "tematica": "Súper Campeones",
-      "destinoCiudad": "Tarapoto",
-      "destinoLinea": "Agencia: **Shalom - La Banda de Shilcayo**",
-      "direccion": "Jirón Perú 186",
-      "enviarFecha": "Enviar: martes 03 de octubre",
+      "codigo": "9HXR",
+      "cliente": "Mileni Lizbeth Crispin Ramon",
+      "celular": "970207497",
+      "dni": "77268763",
+      "tematica": "Plim Plim niña",
+      "pedidoFecha": "30/09",
+      "destinoCiudad": "Pichari, Cuzco",
+      "destinoLinea": "Agencia: **Shalom Pichari - Cuzco**",
+      "direccion": null,
+      "enviarFecha": "Enviar entre martes 06 y miércoles 07 de octubre",
       "estadoPago": "PENDIENTE",
-      "nota": "Regalo: piñata armable temática o pelota.",
       "productos": [
-        { "nombre": "Platos de torta", "cantidad": 100 },
-        { "nombre": "Bolsas dulceras", "cantidad": 100 },
-        { "nombre": "Vasos", "cantidad": 100 },
-        { "nombre": "Cucharas americanas", "cantidad": 100 },
-        { "nombre": "Amarre metálico", "cantidad": 1, "detalle": "paquete x100 unid." },
-        { "nombre": "Fuente de bocaditos", "cantidad": 1, "detalle": "paquete x8 unid." },
-        { "nombre": "Masó temática", "cantidad": 1 },
-        { "nombre": "Globos látex diseño de pelotas", "cantidad": 100, "detalle": "ciento" },
-        { "nombre": "Paliglobos transparentes", "cantidad": 1, "detalle": "paquete" }
+        { "nombre": "Neceser de 1kg", "cantidad": 24, "detalle": "12 rosado, 12 celeste" },
+        { "nombre": "Bolsas herméticas", "cantidad": 20 },
+        { "nombre": "Cajas sorpresas", "cantidad": 30 },
+        { "nombre": "Cajas de Torta", "cantidad": 30 },
+        { "nombre": "Cajas de Cancha", "cantidad": 30 },
+        { "nombre": "Cajas de Caramelo", "cantidad": 30 },
+        { "nombre": "Bolsas dulceras", "cantidad": 30 }
       ]
     }
   ]
