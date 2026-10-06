@@ -34,11 +34,15 @@ Comunes: `tipo` (`"detallado"` | `"simple"`), `codigo`, `cliente`, `dni`
 
 `detallado`: `pedidoFecha`, `tematica`, `destinoCiudad`, `destinoLinea`
 (admite `**negrita**`), `enviarFecha`, `estadoPago` (`"PAGADO"` → pastilla
-verde; cualquier otro valor → pastilla ámbar), `nota`, `productos: [{nombre,
-cantidad, detalle}]`. Un ítem de `productos` puede ser en cambio
-`{categoria: "Golosinas"}` para insertar un encabezado de sección en la
-lista de alistamiento (sin checkbox ni cantidad) y así separar grupos como
-"Golosinas" o "Juguetes" de los productos reales.
+verde; cualquier otro valor → pastilla ámbar), `saldoPendiente` (monto en
+soles como texto, ej. `"87.00"`; si está presente se muestra un recuadro
+rojo destacado al inicio de la lista de alistamiento para que el personal
+cobre el saldo al cliente antes de entregar el pedido — se omite si no hay
+saldo pendiente), `nota`, `productos: [{nombre, cantidad, detalle}]`. Un
+ítem de `productos` puede ser en cambio `{categoria: "Golosinas"}` para
+insertar un encabezado de sección en la lista de alistamiento (sin
+checkbox ni cantidad) y así separar grupos como "Golosinas" o "Juguetes"
+de los productos reales.
 
 `simple`: `modalidad` (`"envio"` | `"recojo"`, cambia el título de la
 sección y el ícono), `destinoHeading`, `chipIcon`, `chipTexto` (agencia/

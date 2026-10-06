@@ -118,6 +118,16 @@ function pageDetalladoLista(p) {
       </div>
     </div>
 
+    ${p.saldoPendiente ? `
+    <div class="cot-saldo">
+      <div class="icono">💰</div>
+      <div>
+        <span class="label">Saldo pendiente de cobro</span>
+        <div class="monto">S/ ${esc(p.saldoPendiente)}</div>
+        <div class="nota">Cobrar al cliente antes de entregar el pedido o compartir la clave de recojo.</div>
+      </div>
+    </div>` : ''}
+
     ${p.tematica ? `<div class="cot-tematica"><span>Temática</span><br>${esc(p.tematica)}</div>` : ''}
 
     <div class="cot-section-titulo">Productos (uso interno — sin precios)</div>

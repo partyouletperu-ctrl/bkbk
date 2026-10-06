@@ -16,6 +16,7 @@
       "direccion": null,
       "enviarFecha": "Enviar entre martes 06 y miércoles 07 de octubre",
       "estadoPago": "PENDIENTE",
+      "saldoPendiente": "87.00",
       "productos": [
         { "nombre": "Neceser de 1kg", "cantidad": 24, "detalle": "12 rosado, 12 celeste" },
         { "nombre": "Bolsas herméticas", "cantidad": 20 },
