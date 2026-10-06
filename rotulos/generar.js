@@ -77,9 +77,9 @@ function pageDetallado(p) {
     tematica: p.tematica,
     modalidad: 'envio',
     destinoHeading: p.destinoCiudad,
-    chipIcon: '🏬',
+    chipIcon: p.chipIcon || '🏬',
     chipTexto: extraeChip(p.destinoLinea),
-    direccion: null,
+    direccion: p.direccion || null,
     notaFecha: p.enviarFecha,
   });
 
