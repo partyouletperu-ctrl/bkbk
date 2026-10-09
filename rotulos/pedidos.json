@@ -1,28 +1,35 @@
 {
-  "_nota": "Pedido único de Jefferson Peña Urbina (Frutas bailarinas), extraído de la cotización PDF, envío vía Shalom Av. José Gálvez - Chimbote.",
-  "fecha": "09Oct-Jefferson",
+  "_nota": "Pedido único de Ericka Tamani (Katseye) — recojo por motorizado en tienda (Jr. Paruro 262), extraído de la cotización PDF.",
+  "fecha": "09Oct-Ericka",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "4GWT",
-      "cliente": "Jefferson Peña Urbina",
-      "celular": "934 492 640",
-      "dni": "76960149",
-      "tematica": "Frutas bailarinas",
-      "pedidoFecha": "05/10",
-      "destinoCiudad": "Chimbote",
-      "destinoLinea": "Agencia: **Shalom Av. José Gálvez**",
-      "direccion": null,
-      "enviarFecha": "Enviar: viernes 09/10",
+      "codigo": "3NFQ",
+      "cliente": "Ericka Tamani",
+      "celular": "943 432 145",
+      "dni": null,
+      "tematica": "Katseye",
+      "pedidoFecha": "08/10",
+      "destinoCiudad": "Recojo en tienda (motorizado)",
+      "destinoLinea": null,
+      "direccion": "Jr. Paruro 262, int. 14 (cruce con Áncash) — recoge un motorizado de parte de la clienta",
+      "enviarFecha": "Recoger: viernes 09/10",
       "estadoPago": "PENDIENTE",
-      "saldoPendiente": "50.00",
+      "saldoPendiente": "82.00",
+      "warning": "No se indicó DNI/CE de la clienta — confirmar identidad antes de entregar al motorizado.",
       "productos": [
-        { "nombre": "Cajas sorpresa", "cantidad": 50 },
-        { "nombre": "Cajas de Torta", "cantidad": 50 },
-        { "nombre": "Cajas de Pop Corn", "cantidad": 50 },
-        { "nombre": "Cajas Pirámide", "cantidad": 50 },
-        { "nombre": "Cajas Carameleras", "cantidad": 50 }
+        { "nombre": "Cajas sorpresa", "cantidad": 30 },
+        { "nombre": "Cajas de Torta", "cantidad": 30 },
+        { "nombre": "Cajas de Cancha", "cantidad": 30 },
+        { "nombre": "Cajas de Caramelo", "cantidad": 30 },
+        { "nombre": "Cajas Pirámide", "cantidad": 30 },
+        { "nombre": "Pírex gelatinero", "cantidad": 100, "detalle": "1 ciento" },
+        { "nombre": "Cucharas", "cantidad": 100, "detalle": "1 ciento" },
+        { "nombre": "Relleno XL", "cantidad": 1 },
+        { "nombre": "Mazo ban ban", "cantidad": 1, "detalle": "color morado" },
+        { "nombre": "Piñata estrella personalizada Katseye", "cantidad": 1 },
+        { "nombre": "Velas #11", "cantidad": 1, "detalle": "color morado escarchado" }
       ]
     }
   ]
