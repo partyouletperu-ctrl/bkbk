@@ -85,7 +85,7 @@ function pageDetalladoRotulo(p) {
     dni: p.dni,
     dniLabel: p.dniLabel,
     tematica: p.tematica,
-    modalidad: 'envio',
+    modalidad: p.modalidad || 'envio',
     destinoHeading: p.destinoCiudad,
     chipIcon: p.chipIcon || '🏬',
     chipTexto: extraeChip(p.destinoLinea),
