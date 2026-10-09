@@ -1,30 +1,30 @@
 {
-  "_nota": "Pedido único de Olga Chávez Mitma (Mario Bros clásico) — recojo en tienda por la propia clienta, extraído de la cotización PDF.",
-  "fecha": "09Oct-Olga",
+  "_nota": "Pedido único de Leslie Gomez (Baby Safari Retro - Niño), envío vía InDrive, extraído de la cotización PDF.",
+  "fecha": "09Oct-Leslie",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "5XQK",
-      "cliente": "Olga Chávez Mitma",
-      "celular": "927 572 997",
-      "dni": null,
-      "tematica": "Mario Bros clásico",
-      "pedidoFecha": "11/08",
-      "destinoCiudad": "Recojo en tienda",
-      "modalidad": "recojo",
-      "destinoLinea": null,
-      "direccion": "Jr. Paruro 262, int. 14 (cruce con Áncash)",
-      "enviarFecha": "Horario de recojo: a partir de las 3:00 p.m.",
+      "codigo": "8LRV",
+      "cliente": "Leslie Gomez",
+      "celular": "966 240 096",
+      "dni": "76856895",
+      "tematica": "Baby Safari Retro – Niño",
+      "pedidoFecha": "08/10",
+      "destinoCiudad": "San Martín de Porres",
+      "destinoLinea": "Envío: **InDrive**",
+      "direccion": "Jr. Macará 246, SMP",
+      "enviarFecha": "Enviar: viernes 09/10",
       "estadoPago": "PENDIENTE",
-      "saldoPendiente": "25.00",
-      "warning": "No se indicó DNI/CE de la clienta — confirmar identidad antes de entregar el pedido.",
+      "saldoPendiente": "65.00",
       "productos": [
-        { "nombre": "Cajas sorpresa", "cantidad": 25 },
-        { "nombre": "Carameleros", "cantidad": 25 },
-        { "nombre": "Pirámides", "cantidad": 25 },
-        { "nombre": "Bolsas dulceras", "cantidad": 25 },
-        { "nombre": "Cajas de Torta", "cantidad": 25 }
+        { "nombre": "Cajas sorpresa", "cantidad": 40 },
+        { "nombre": "Cajas de Torta", "cantidad": 40 },
+        { "nombre": "Cajas de Cancha", "cantidad": 40 },
+        { "nombre": "Cajas de Caramelo", "cantidad": 40 },
+        { "nombre": "Vasos", "cantidad": 40 },
+        { "nombre": "Bolsitas herméticas", "cantidad": 50, "detalle": "Baby Safari Niño" },
+        { "nombre": "Amarre metálico", "cantidad": 100, "detalle": "1 ciento" }
       ]
     }
   ]
