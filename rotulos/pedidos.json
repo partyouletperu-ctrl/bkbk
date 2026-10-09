@@ -1,36 +1,28 @@
 {
-  "_nota": "Pedido único de Yanira Ramos Clemente (Hombre Araña clásico), envío vía Shalom a Pangoa - Satipo - Junín.",
-  "fecha": "09Oct-Yanira",
+  "_nota": "Pedido único de Deysi Ureta Espinoza (Zootopía niña), envío vía Shalom Agencia Pangoa.",
+  "fecha": "09Oct-Deysi",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "7MDH",
-      "cliente": "Yanira Ramos Clemente",
-      "celular": "927394437",
-      "dni": "77222710",
-      "tematica": "Hombre Araña clásico",
+      "codigo": "6PJW",
+      "cliente": "Deysi Ureta Espinoza",
+      "celular": "980591707",
+      "dni": "71586494",
+      "tematica": "Zootopía niña",
       "pedidoFecha": "07/10",
       "destinoCiudad": "Pangoa, Satipo, Junín",
-      "destinoLinea": "Agencia: **Shalom**",
-      "direccion": "San Martín de Pangoa",
-      "enviarFecha": "Enviar: jueves 08 de octubre",
+      "destinoLinea": "Agencia: **Shalom Agencia Pangoa**",
+      "direccion": "Av. Marginal S/N, Villa Chavini, Pangoa - Satipo - Junín (San Martín de Pangoa)",
+      "enviarFecha": "Enviar: viernes 09 de octubre",
       "estadoPago": "PENDIENTE",
-      "saldoPendiente": "55.00",
+      "saldoPendiente": "123.00",
+      "nota": "Personalización: nombre **Khalessy**, 8 años.",
       "productos": [
-        { "nombre": "Arco de globos importado", "cantidad": 1 },
-        { "nombre": "Cajas sorpresa", "cantidad": 30 },
-        { "nombre": "Cajas de Torta", "cantidad": 30 },
-        { "nombre": "Cajas de Cancha", "cantidad": 30 },
-        { "nombre": "Cajas Pirámide", "cantidad": 30 },
-        { "nombre": "Cajas Caramelera", "cantidad": 30 },
-        { "nombre": "Bolsas dulceras", "cantidad": 30 },
-        { "nombre": "Vasos de personaje", "cantidad": 30 },
-        { "nombre": "Cucharas de color", "cantidad": 30 },
-        { "nombre": "Fuentes de bocaditos", "cantidad": 8 },
-        { "nombre": "Vela de personaje", "cantidad": 1 },
-        { "nombre": "Spray", "cantidad": 1 },
-        { "nombre": "Piñata armable", "cantidad": 1, "detalle": "GRATIS" }
+        { "nombre": "Bolsa PVC gigante personalizada", "cantidad": 60, "detalle": "colores pasteles" },
+        { "nombre": "Tarjeta de invitación", "cantidad": 6, "detalle": "paquete x10 und. (60 und. en total)" },
+        { "nombre": "Caja de torta", "cantidad": 100, "detalle": "1 ciento" },
+        { "nombre": "Bolsita dulcera", "cantidad": 100, "detalle": "1 ciento" }
       ]
     }
   ]
