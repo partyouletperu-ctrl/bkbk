@@ -1,32 +1,27 @@
 {
-  "_nota": "Pedido único de Milagros Fernández Puicón (Hadas del bosque/bosque encantado), envío vía Shalom a Chongoyape. Pedido base cancelado; se agregaron productos adicionales pendientes de pago.",
-  "fecha": "09Oct-Milagros",
+  "_nota": "Pedido único de July Antuanet Cusquisiban Cruzado (Conejito), envío vía Shalom de Horacio Zeballos - Cajamarca.",
+  "fecha": "10Oct-July",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "4WZS",
-      "cliente": "Milagros Fernández Puicón",
-      "celular": "922625694",
-      "dni": "75383481",
-      "tematica": "Hadas del bosque / bosque encantado",
-      "destinoCiudad": "Chongoyape",
-      "destinoLinea": "Agencia: **Shalom**",
+      "codigo": "5TNQ",
+      "cliente": "July Antuanet Cusquisiban Cruzado",
+      "celular": "922924804",
+      "dni": "73208657",
+      "tematica": "Conejito",
+      "destinoCiudad": "Cajamarca",
+      "destinoLinea": "Agencia: **Shalom de Horacio Zeballos**",
       "direccion": null,
-      "enviarFecha": "Enviar: viernes 09 de octubre",
+      "enviarFecha": "Enviar: 10/10/26",
       "estadoPago": "PENDIENTE",
-      "saldoPendiente": "24.00",
-      "nota": "Pedido base (S/ 239) cancelado en su totalidad; se agregaron productos adicionales por S/ 24, pendientes de pago.",
+      "saldoPendiente": "30.00",
       "productos": [
-        { "nombre": "Bolsas herméticas", "cantidad": 100, "detalle": "1 ciento, surtido 2 modelos" },
-        { "nombre": "Cajas de Torta", "cantidad": 100, "detalle": "1 ciento" },
-        { "nombre": "Cajas Pirámide", "cantidad": 10 },
-        { "nombre": "Cajas Carameleras", "cantidad": 10 },
-        { "nombre": "Cajas Pop Corn", "cantidad": 100, "detalle": "1 ciento" },
-        { "nombre": "Etiqueta de botella", "cantidad": 100, "detalle": "1 ciento" },
-        { "nombre": "Stickers paleta", "cantidad": 300, "detalle": "3 cientos" },
-        { "nombre": "Vasos tumbler personalizado", "cantidad": 12, "detalle": "1 docena — hadas del bosque, nombre, año y fotos si desea" },
-        { "nombre": "Sticker de botella", "cantidad": 100, "detalle": "1 ciento (agregado)" }
+        { "nombre": "Cajas sorpresas", "cantidad": 30 },
+        { "nombre": "Cajas de Torta", "cantidad": 30 },
+        { "nombre": "Cajas de Cancha", "cantidad": 30 },
+        { "nombre": "Cajas de Caramelo", "cantidad": 30 },
+        { "nombre": "Cajas Pirámide", "cantidad": 30 }
       ]
     }
   ]
