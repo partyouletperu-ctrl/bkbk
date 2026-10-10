@@ -1,38 +1,22 @@
 {
-  "_nota": "Pedido único de Carmen Stefany Santamaria Suclupe (Minnie Mouse rosado clásico), envío vía Shalom a Túcume - Lambayeque.",
-  "fecha": "10Oct-Carmen",
+  "_nota": "Rótulo único para SMART ELITE E.I.R.L. (cliente empresa), destino Tambogrande - Piura, vía Transportes Grema S.R.L.",
+  "fecha": "10Oct-SmartElite",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
-      "tipo": "detallado",
-      "codigo": "3HQP",
-      "cliente": "Carmen Stefany Santamaria Suclupe",
-      "celular": "935080611",
-      "dni": "75811032",
-      "tematica": "Minnie Mouse rosado clásico",
-      "pedidoFecha": "08/10 (asesora Anali)",
-      "destinoCiudad": "Túcume, Lambayeque",
-      "destinoLinea": "Agencia: **Shalom**",
-      "direccion": null,
-      "enviarFecha": "Enviar: sábado 10 de octubre",
-      "estadoPago": "PAGADO",
-      "nota": "Regalo: vela paleta.",
-      "productos": [
-        { "nombre": "Cajas sorpresas", "cantidad": 30 },
-        { "nombre": "Cajas de Torta", "cantidad": 30 },
-        { "nombre": "Cajas de Cancha", "cantidad": 30 },
-        { "nombre": "Etiqueta de botella", "cantidad": 30 },
-        { "nombre": "Pirámide", "cantidad": 30 },
-        { "nombre": "Vasos", "cantidad": 30 },
-        { "nombre": "Cucharas", "cantidad": 80 },
-        { "nombre": "Pírex gelatinero", "cantidad": 25 },
-        { "nombre": "Mazo temático", "cantidad": 1 },
-        { "nombre": "Globos pencil", "cantidad": 100, "detalle": "1 ciento" },
-        { "nombre": "Matraca", "cantidad": 12 },
-        { "nombre": "Silbatos", "cantidad": 25 },
-        { "nombre": "Pulsera neón", "cantidad": 50 },
-        { "nombre": "Lanza confeti", "cantidad": 1 }
-      ]
+      "tipo": "simple",
+      "codigo": "7LYK",
+      "cliente": "SMART ELITE E.I.R.L.",
+      "celular": "919038888",
+      "dni": "20612361194",
+      "dniLabel": "RUC",
+      "modalidad": "envio",
+      "destinoHeading": "Tambogrande, Piura",
+      "chipIcon": "🚚",
+      "chipTexto": "Transportes Grema S.R.L.",
+      "direccion": "Cal. Los Fresnos, Tambogrande - Piura",
+      "notaFecha": "Enviar: (fecha no indicada en el mensaje)",
+      "warning": "Agencia de despacho (recojo del paquete): Transportes Grema S.R.L. — Calle Totorita, Rímac (frente al colegio Ricardo Bentín). Tel. 01-425 6422 / Cel. 994 400932 - 954 611142. No se indicó fecha de envío — confirmar antes de despachar."
     }
   ]
 }
