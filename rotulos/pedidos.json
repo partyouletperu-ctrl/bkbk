@@ -1,22 +1,21 @@
 {
-  "_nota": "Rótulo único para SMART ELITE E.I.R.L. (cliente empresa), destino Tambogrande - Piura, vía Transportes Grema S.R.L.",
-  "fecha": "10Oct-SmartElite",
+  "_nota": "Rótulo único de Olga Chávez Mitma, envío vía Shalom Av. Santa Rosa - Santa Anita.",
+  "fecha": "10Oct-Olga2",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "simple",
-      "codigo": "7LYK",
-      "cliente": "SMART ELITE E.I.R.L.",
-      "celular": "919038888",
-      "dni": "20612361194",
-      "dniLabel": "RUC",
+      "codigo": "9DFL",
+      "cliente": "Olga Chávez Mitma",
+      "celular": "927572997",
+      "dni": "40847955",
       "modalidad": "envio",
-      "destinoHeading": "Tambogrande, Piura",
-      "chipIcon": "🚚",
-      "chipTexto": "Transportes Grema S.R.L.",
-      "direccion": "Cal. Los Fresnos, Tambogrande - Piura",
+      "destinoHeading": "Santa Anita",
+      "chipIcon": "🏬",
+      "chipTexto": "Shalom Av. Santa Rosa",
+      "direccion": null,
       "notaFecha": "Enviar: (fecha no indicada en el mensaje)",
-      "warning": "Agencia de despacho (recojo del paquete): Transportes Grema S.R.L. — Calle Totorita, Rímac (frente al colegio Ricardo Bentín). Tel. 01-425 6422 / Cel. 994 400932 - 954 611142. No se indicó fecha de envío — confirmar antes de despachar."
+      "warning": "No se indicó fecha de envío — confirmar antes de despachar."
     }
   ]
 }
