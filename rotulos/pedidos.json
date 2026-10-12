@@ -1,30 +1,30 @@
 {
-  "_nota": "Pedido único de Lovely Isiris Bejar Oscco (Conejita), envío vía Shalom de la Circunvalación - Puerto Maldonado. Incluye piñata crepé personalizada por hacer.",
-  "fecha": "12Oct-Lovely",
+  "_nota": "Pedido único de Dina Muñoz Carranza (Barcelona), envío vía Shalom a Pacasmayo - Las Palmeras.",
+  "fecha": "13Oct-Dina",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "6WZH",
-      "cliente": "Lovely Isiris Bejar Oscco",
-      "celular": "991488896",
-      "dni": "60640308",
-      "tematica": "Conejita",
-      "destinoCiudad": "Puerto Maldonado",
-      "destinoLinea": "Agencia: **Shalom de la Circunvalación**",
+      "codigo": "3HKD",
+      "cliente": "Dina Muñoz Carranza",
+      "celular": "916356849",
+      "dni": "71957920",
+      "tematica": "Barcelona",
+      "pedidoFecha": "11/10",
+      "destinoCiudad": "Pacasmayo, Las Palmeras",
+      "destinoLinea": "Agencia: **Shalom**",
       "direccion": null,
-      "enviarFecha": "Envío cuando la piñata esté lista — aprox. jueves 15/10",
+      "enviarFecha": "Enviar: martes 13/10",
       "estadoPago": "PENDIENTE",
-      "saldoPendiente": "100.00",
-      "nota": "Bolsas herméticas con diseño bosque encantado según foto de referencia enviada por la clienta.",
+      "saldoPendiente": "46.00",
+      "nota": "Regalo: vela paleta.",
       "productos": [
         { "nombre": "Cajas sorpresas", "cantidad": 40 },
         { "nombre": "Cajas de Torta", "cantidad": 40 },
-        { "nombre": "Cajas de Cancha", "cantidad": 40 },
-        { "nombre": "Cajas de Caramelo", "cantidad": 40 },
-        { "nombre": "Cajas Pirámide", "cantidad": 40 },
-        { "nombre": "Bolsas herméticas", "cantidad": 50, "detalle": "diseño bosque encantado, según foto" },
-        { "nombre": "Piñata crepé personalizada conejita", "cantidad": 1 }
+        { "nombre": "Cajas de Pop Corn", "cantidad": 40 },
+        { "nombre": "Vasos temático", "cantidad": 40 },
+        { "nombre": "Bolsas dulceras", "cantidad": 40 },
+        { "nombre": "Piñata armable", "cantidad": 1 }
       ]
     }
   ]
