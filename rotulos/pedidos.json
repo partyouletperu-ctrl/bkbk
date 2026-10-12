@@ -1,34 +1,24 @@
 {
-  "_nota": "Pedido único de Loana Inga Almonacid: dos temáticas (Sonic niño y Sonic niña) en el mismo envío, vía Shalom a Inambari - Madre de Dios.",
-  "fecha": "12Oct-Loana",
+  "_nota": "Pedido único de Geraldine Torres Farfan (Michael Jackson), envío vía Shalom a Pisco.",
+  "fecha": "12Oct-Geraldine",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "6PXZ",
-      "cliente": "Loana Inga Almonacid",
-      "celular": "935259004",
-      "dni": "60530845",
-      "tematica": "Sonic niño y Sonic niña",
-      "pedidoFecha": "10/10",
-      "destinoCiudad": "Inambari, Tambopata - Madre de Dios",
+      "codigo": "8QWM",
+      "cliente": "Geraldine Torres Farfan",
+      "celular": "998824517",
+      "dni": "46730547",
+      "tematica": "Michael Jackson",
+      "destinoCiudad": "Pisco",
       "destinoLinea": "Agencia: **Shalom**",
-      "direccion": "Av. Los Pioneros, Lt. 2 y 3, Inambari — ref. al costado del Terminal Terrestre de Mazuko / al pie de la carretera al río Inambari. Envío terrestre.",
-      "enviarFecha": "Enviar: lunes 12/10",
+      "direccion": null,
+      "enviarFecha": "Enviar: lunes 12 de octubre",
       "estadoPago": "PAGADO",
       "productos": [
-        { "categoria": "Sonic niño" },
-        { "nombre": "Cajas sorpresas", "cantidad": 10 },
-        { "nombre": "Cajas de Torta", "cantidad": 10 },
-        { "nombre": "Cajas de Cancha", "cantidad": 10 },
-        { "nombre": "Cajas de Caramelo", "cantidad": 10 },
-        { "nombre": "Cajas Pirámide", "cantidad": 10 },
-        { "categoria": "Sonic niña" },
-        { "nombre": "Cajas sorpresas", "cantidad": 20 },
-        { "nombre": "Cajas de Torta", "cantidad": 20 },
-        { "nombre": "Cajas de Cancha", "cantidad": 20 },
-        { "nombre": "Cajas de Caramelo", "cantidad": 20 },
-        { "nombre": "Cajas Pirámide", "cantidad": 20 }
+        { "nombre": "Cajas sorpresas", "cantidad": 50 },
+        { "nombre": "Cajas de Cancha", "cantidad": 40 },
+        { "nombre": "Cajas Pirámide", "cantidad": 30 }
       ]
     }
   ]
