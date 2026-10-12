@@ -1,31 +1,27 @@
 {
-  "_nota": "Pedido único de Yuri Grandez Ajón (Dino bebé niño), envío aéreo vía Shalom - Jr. José Gálvez 147, Pucallpa.",
-  "fecha": "12Oct-Yuri",
+  "_nota": "Pedido único de Yessica Díaz Briceño (Cereza personalizado - Barbie mis 10 años), envío vía Shalom a Mollendo.",
+  "fecha": "12Oct-Yessica",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "4RTB",
-      "cliente": "Yuri Grandez Ajón",
-      "celular": "978827415",
-      "dni": "48373317",
-      "tematica": "Dino bebé niño",
-      "pedidoFecha": "10/10",
-      "destinoCiudad": "Pucallpa",
-      "destinoLinea": "Agencia: **Shalom - Jr. José Gálvez 147**",
-      "chipIcon": "✈️",
+      "codigo": "5LNV",
+      "cliente": "Yessica Díaz Briceño",
+      "celular": "991748459",
+      "dni": "007856698",
+      "dniLabel": "Carnet de Extranjería",
+      "tematica": "Cereza personalizado - Barbie mis 10 años",
+      "pedidoFecha": "08/10",
+      "destinoCiudad": "Mollendo",
+      "destinoLinea": "Agencia: **Shalom**",
       "direccion": null,
-      "enviarFecha": "Enviar: lunes 12/10",
-      "estadoPago": "PAGADO",
-      "nota": "Regalo: vela personaje. Envío aéreo.",
+      "enviarFecha": "Enviar: lunes 12/09",
+      "estadoPago": "PENDIENTE",
+      "saldoPendiente": "40.00",
+      "nota": "Cargo adicional de S/ 10.00 por elegir las cantidades personalizadas — ya cancelado.",
+      "warning": "La fecha de envío indicada (12/09) es anterior a la fecha del pedido (08/10) — probablemente se refiera al 12/10, confirmar con la clienta antes de despachar.",
       "productos": [
-        { "nombre": "Cajas sorpresas", "cantidad": 50 },
-        { "nombre": "Cajas de Torta", "cantidad": 50 },
-        { "nombre": "Cajas de Cancha", "cantidad": 50 },
-        { "nombre": "Cajas de Caramelo", "cantidad": 50 },
-        { "nombre": "Cajas Pirámide", "cantidad": 50 },
-        { "nombre": "Vasos", "cantidad": 50 },
-        { "nombre": "Cucharas de color", "cantidad": 50 }
+        { "nombre": "Cajas sorpresa", "cantidad": 30, "detalle": "color de caja blanco" }
       ]
     }
   ]
