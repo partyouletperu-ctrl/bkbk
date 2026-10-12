@@ -1,27 +1,30 @@
 {
-  "_nota": "Pedido único de Yessica Díaz Briceño (Cereza personalizado - Barbie mis 10 años), envío vía Shalom a Mollendo.",
-  "fecha": "12Oct-Yessica",
+  "_nota": "Pedido único de Lovely Isiris Bejar Oscco (Conejita), envío vía Shalom de la Circunvalación - Puerto Maldonado. Incluye piñata crepé personalizada por hacer.",
+  "fecha": "12Oct-Lovely",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "5LNV",
-      "cliente": "Yessica Díaz Briceño",
-      "celular": "991748459",
-      "dni": "007856698",
-      "dniLabel": "Carnet de Extranjería",
-      "tematica": "Cereza personalizado - Barbie mis 10 años",
-      "pedidoFecha": "08/10",
-      "destinoCiudad": "Mollendo",
-      "destinoLinea": "Agencia: **Shalom**",
+      "codigo": "6WZH",
+      "cliente": "Lovely Isiris Bejar Oscco",
+      "celular": "991488896",
+      "dni": "60640308",
+      "tematica": "Conejita",
+      "destinoCiudad": "Puerto Maldonado",
+      "destinoLinea": "Agencia: **Shalom de la Circunvalación**",
       "direccion": null,
-      "enviarFecha": "Enviar: lunes 12/09",
+      "enviarFecha": "Envío cuando la piñata esté lista — aprox. jueves 15/10",
       "estadoPago": "PENDIENTE",
-      "saldoPendiente": "40.00",
-      "nota": "Cargo adicional de S/ 10.00 por elegir las cantidades personalizadas — ya cancelado.",
-      "warning": "La fecha de envío indicada (12/09) es anterior a la fecha del pedido (08/10) — probablemente se refiera al 12/10, confirmar con la clienta antes de despachar.",
+      "saldoPendiente": "100.00",
+      "nota": "Bolsas herméticas con diseño bosque encantado según foto de referencia enviada por la clienta.",
       "productos": [
-        { "nombre": "Cajas sorpresa", "cantidad": 30, "detalle": "color de caja blanco" }
+        { "nombre": "Cajas sorpresas", "cantidad": 40 },
+        { "nombre": "Cajas de Torta", "cantidad": 40 },
+        { "nombre": "Cajas de Cancha", "cantidad": 40 },
+        { "nombre": "Cajas de Caramelo", "cantidad": 40 },
+        { "nombre": "Cajas Pirámide", "cantidad": 40 },
+        { "nombre": "Bolsas herméticas", "cantidad": 50, "detalle": "diseño bosque encantado, según foto" },
+        { "nombre": "Piñata crepé personalizada conejita", "cantidad": 1 }
       ]
     }
   ]
