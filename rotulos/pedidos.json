@@ -1,30 +1,29 @@
 {
-  "_nota": "Pedido único de Dina Muñoz Carranza (Barcelona), envío vía Shalom a Pacasmayo - Las Palmeras.",
-  "fecha": "13Oct-Dina",
+  "_nota": "Pedido único de Maritza Yovanna Chuyos Giraldo (CR7 Portugal), envío vía Shalom a Casma — urgente.",
+  "fecha": "13Oct-Maritza",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "3HKD",
-      "cliente": "Dina Muñoz Carranza",
-      "celular": "916356849",
-      "dni": "71957920",
-      "tematica": "Barcelona",
+      "codigo": "7VXQ",
+      "cliente": "Maritza Yovanna Chuyos Giraldo",
+      "celular": "902329234",
+      "dni": "76143297",
+      "tematica": "CR7 Portugal",
       "pedidoFecha": "11/10",
-      "destinoCiudad": "Pacasmayo, Las Palmeras",
+      "destinoCiudad": "Casma",
       "destinoLinea": "Agencia: **Shalom**",
       "direccion": null,
-      "enviarFecha": "Enviar: martes 13/10",
-      "estadoPago": "PENDIENTE",
-      "saldoPendiente": "46.00",
-      "nota": "Regalo: vela paleta.",
+      "enviarFecha": "Enviar: lunes — **URGENTE**",
+      "estadoPago": "PAGADO",
       "productos": [
-        { "nombre": "Cajas sorpresas", "cantidad": 40 },
-        { "nombre": "Cajas de Torta", "cantidad": 40 },
-        { "nombre": "Cajas de Pop Corn", "cantidad": 40 },
-        { "nombre": "Vasos temático", "cantidad": 40 },
-        { "nombre": "Bolsas dulceras", "cantidad": 40 },
-        { "nombre": "Piñata armable", "cantidad": 1 }
+        { "nombre": "Cajas sorpresas", "cantidad": 50 },
+        { "nombre": "Cajas de Torta", "cantidad": 50 },
+        { "nombre": "Cajas de Pop Corn", "cantidad": 50 },
+        { "nombre": "Cajas Pirámide", "cantidad": 50 },
+        { "nombre": "Cajas Carameleras", "cantidad": 50 },
+        { "nombre": "Vela paleta", "cantidad": 1 },
+        { "nombre": "Bolsas dulceras", "cantidad": 30 }
       ]
     }
   ]
