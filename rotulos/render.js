@@ -7,7 +7,7 @@ const fs = require('fs');
   const { fecha } = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
   const outName = `Rotulos_${fecha || 'salida'}.pdf`;
 
-  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1243/chrome-linux64/chrome' });
   const page = await browser.newPage();
   const url = 'file://' + path.join(__dirname, 'build', 'index.html');
   await page.goto(url, { waitUntil: 'networkidle' });
