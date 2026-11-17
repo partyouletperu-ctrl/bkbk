@@ -1,21 +1,25 @@
 {
-  "_nota": "Rótulo único de Darien Manrique (Toy Story clásico), envío vía Shalom Puerto - Ilo, Moquegua. Solo rótulo, sin lista.",
-  "fecha": "17Nov-Darien-rotulo",
+  "_nota": "Pedido único de Jasmina Huaynate Salcedo (Fede Vigevani), envío vía Shalom terrestre a Chaupimarca - Cerro de Pasco.",
+  "fecha": "17Nov-Jasmina",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
-      "tipo": "simple",
-      "codigo": "6LZQ",
-      "cliente": "Darien Manrique",
-      "celular": "972483918",
-      "dni": "75537720",
-      "tematica": "Toy Story clásico",
-      "modalidad": "envio",
-      "destinoHeading": "Ilo, Moquegua",
-      "chipIcon": "🏬",
-      "chipTexto": "Shalom Puerto",
+      "tipo": "detallado",
+      "codigo": "9MKV",
+      "cliente": "Jasmina Huaynate Salcedo",
+      "celular": "935409703",
+      "dni": "47422392",
+      "tematica": "Fede Vigevani",
+      "destinoCiudad": "Chaupimarca, Cerro de Pasco",
+      "destinoLinea": "Agencia: **Shalom** (terrestre)",
       "direccion": null,
-      "notaFecha": "Enviar: martes 17/11"
+      "enviarFecha": "Enviar: martes 17/11",
+      "estadoPago": "PAGADO",
+      "nota": "Incluye embalaje y empaquetado (S/10.00, ya incluido en el total).",
+      "productos": [
+        { "nombre": "Cajas sorpresa", "cantidad": 20 },
+        { "nombre": "Cajas de Torta", "cantidad": 20 }
+      ]
     }
   ]
 }
