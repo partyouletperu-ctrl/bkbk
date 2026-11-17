@@ -1,24 +1,32 @@
 {
-  "_nota": "Pedido único de Jasmina Huaynate Salcedo (Fede Vigevani), envío vía Shalom terrestre a Chaupimarca - Cerro de Pasco.",
-  "fecha": "17Nov-Jasmina",
+  "_nota": "Pedido único de Geraldine Sena Roman (Jessy la vaquerita), entrega directa por motorizado en Independencia.",
+  "fecha": "17Nov-Geraldine",
   "whatsapp": "944 751 287",
   "pedidos": [
     {
       "tipo": "detallado",
-      "codigo": "9MKV",
-      "cliente": "Jasmina Huaynate Salcedo",
-      "celular": "935409703",
-      "dni": "47422392",
-      "tematica": "Fede Vigevani",
-      "destinoCiudad": "Chaupimarca, Cerro de Pasco",
-      "destinoLinea": "Agencia: **Shalom** (terrestre)",
-      "direccion": null,
+      "codigo": "7NDX",
+      "cliente": "Geraldine Sena Roman",
+      "celular": "984730230",
+      "dni": null,
+      "tematica": "Jessy la vaquerita",
+      "destinoCiudad": "Independencia",
+      "destinoLinea": "Envío: **Motorizado**",
+      "chipIcon": "🛵",
+      "direccion": "Av. 16 de Marzo 226, José Gálvez",
       "enviarFecha": "Enviar: martes 17/11",
       "estadoPago": "PAGADO",
-      "nota": "Incluye embalaje y empaquetado (S/10.00, ya incluido en el total).",
+      "warning": "No se indicó DNI/CE de la clienta — confirmar identidad antes de entregar al motorizado.",
       "productos": [
-        { "nombre": "Cajas sorpresa", "cantidad": 20 },
-        { "nombre": "Cajas de Torta", "cantidad": 20 }
+        { "nombre": "Cajas sorpresas", "cantidad": 30 },
+        { "nombre": "Cajas de Torta", "cantidad": 30 },
+        { "nombre": "Cajas de Pop Corn", "cantidad": 30 },
+        { "nombre": "Cajas Pirámide", "cantidad": 30 },
+        { "nombre": "Cajas Carameleras", "cantidad": 30 },
+        { "nombre": "Pírex gelatinero", "cantidad": 25 },
+        { "nombre": "Mazo temático", "cantidad": 1 },
+        { "nombre": "Bolsas dulceras", "cantidad": 20 },
+        { "nombre": "Cucharas", "cantidad": 50 }
       ]
     }
   ]
